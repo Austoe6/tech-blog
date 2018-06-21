@@ -164,8 +164,7 @@ class BlogPost extends React.Component{
                     shortname="techgenius-1"
                     identifier={title}
                     title={title}
-                    url='https://techgenius.me'
-                    category_id="Tech"
+                    url={shareUrl}
                     onNewComment={this.handleNewComment}/>
                 </div>
                 <Whitespace/>
