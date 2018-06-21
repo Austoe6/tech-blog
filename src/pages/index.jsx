@@ -8,6 +8,7 @@ import AllPosts from '../components/AllPosts';
 import Title from '../components/Title';
 import Whitespace from '../layout-components/whitespace'
 import SocialIcons from '../components/social-icons'
+import {Helmet} from 'react-helmet'
 
 const IndexPage = ({data}) =>{
   const allPosts = data.blogposts.edges
@@ -25,6 +26,9 @@ const IndexPage = ({data}) =>{
 
   return(
     <div>
+      <Helmet>
+        <meta name="google-site-verification" content="D4nmmh7GN4IXDcMhOT9XICJ9QuF7uCugTrurqSgXaqQ" />
+      </Helmet>
       <Whitespace/>
       <div>
         <FeaturedPosts posts={featuredPosts}/>
