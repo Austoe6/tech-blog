@@ -10,6 +10,7 @@ description: >-
   phones in Kenya 2018..
 category: Phones and Gadgets
 author: Austin O
+featured: true
 ---
 ![null](/img/iphonex_spacegray.png)
 
