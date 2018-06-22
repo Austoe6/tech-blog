@@ -75,7 +75,7 @@ class BlogPost extends React.Component{
                             <div className='blog-post__share-title'>
                                 <Title title='share'/>
                             </div>
-                            <div>
+                            <a>
                                 <FacebookShareButton
                                     url={shareUrl}
                                     quote={postMeta.title}
@@ -90,8 +90,8 @@ class BlogPost extends React.Component{
                                     className="blog-post__share-count">
                                     {count => count}
                                 </FacebookShareCount>
-                            </div>
-                            <div>
+                            </a>
+                            <a>
                             <TwitterShareButton
                                 url={shareUrl}
                                 title={title}
@@ -100,8 +100,8 @@ class BlogPost extends React.Component{
                                 size={48}
                                 round />
                             </TwitterShareButton>
-                            </div>
-                            <div>
+                            </a>
+                            <a>
                             <WhatsappShareButton
                                 url={shareUrl}
                                 title={title}
@@ -109,8 +109,8 @@ class BlogPost extends React.Component{
                                 className="blog-post__share-btn">
                                 <WhatsappIcon size={48} round />
                             </WhatsappShareButton>
-                            </div>
-                            <div>
+                            </a>
+                            <a>
                             <LinkedinShareButton
                                 url={shareUrl}
                                 title={title}
@@ -126,7 +126,7 @@ class BlogPost extends React.Component{
                                 className="blog-post__share-count">
                                 {count => count}
                             </LinkedinShareCount>
-                            </div>
+                            </a>
                         </div>
                     </Col>
                     <Col lg={12} md={24} xs={24}>
