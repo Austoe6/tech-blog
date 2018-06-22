@@ -9,6 +9,11 @@ $_header-height  : 100px;
     position: fixed;
     background-color: $white;
     z-index: 1000;
+	
+	@include bp(max-width small){
+		position: relative;
+		margin-bottom: -100px;
+	}
 }
 
 .header-logo {
