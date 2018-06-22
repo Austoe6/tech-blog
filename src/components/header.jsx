@@ -57,9 +57,9 @@ class Header extends React.Component{
             <Col>
               <div className="hide-mobile"><Nav/></div>
               <div className="mobile-nav__btn">
-              <a>
-                <img src={menuBtnSrc} alt="menu btn" role='button' onClick={this.handleShowMenu}/>
-              </a>
+              <button onClick={this.handleShowMenu}>
+                <img src={menuBtnSrc} alt="menu btn" role='button'/>
+              </button>
               </div>
             </Col>
           </Row>
