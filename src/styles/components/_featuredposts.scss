@@ -1,3 +1,9 @@
+.featured-posts {
+    @include bp(max-width small){
+        margin-bottom: 1rem;
+    }
+}
+
 .featured-post__container {
     display: flex;
     padding: 2rem 3rem;

@@ -10,13 +10,13 @@ const Icons = () =>{
         <a href='https://twitter.com/Austoe6' target='_blank'>
           <img src={twitter} alt='twitter-link' className='social-icons' />
         </a>
-        <a href='https://dribbble.com/geoffokumu' target='_blank'>
-          <img src={facebook} alt='dribble-link' className='social-icons' />
+        <a href='https://fb.me/techgeniusblog' target='_blank'>
+          <img src={facebook} alt='facebook-link' className='social-icons' />
         </a>
-        <a href='https://github.com/geoffOkumu' target='_blank'>
+        <a href='https://github.com/Austoe6' target='_blank'>
           <img src={github} alt='github-link' className='social-icons' />
         </a>
-        <a href='https://www.linkedin.com/in/geoffrey-okumu-b39309b9/' target='_blank'>
+        <a href='https://www.linkedin.com/in/austin-omonyo-497301143/' target='_blank'>
           <img src={linkedin} alt='linkedin-link' className='social-icons' />
         </a>
     </div>
