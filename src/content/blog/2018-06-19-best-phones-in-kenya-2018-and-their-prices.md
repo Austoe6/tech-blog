@@ -8,7 +8,7 @@ description: >-
   just got more deals for you. Luckily, we got you covered. With as low as
   Ksh.9000 you can walk home with a great deal this year. These are the best
   phones in Kenya 2018..
-category: Phones and Gadgets
+category: phones and gadgets
 author: Austin O
 featured: true
 ---
