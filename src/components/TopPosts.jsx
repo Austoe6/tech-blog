@@ -1,6 +1,7 @@
 import React from 'react'
 import {Row, Col} from '../layout-components/grid'
 import Link from 'gatsby-link'
+import AdUnit from './adUnit';
 
 const TopPosts = ({data}) =>{
     return (
@@ -21,7 +22,9 @@ const TopPosts = ({data}) =>{
                 </Col>
             )
             }
-            <Col lg={12} xs={24} id='ad'></Col>
+            <Col lg={12} xs={24} id='ad'>
+                <AdUnit/>
+            </Col>
         </Row>
     )
 }

@@ -9,6 +9,7 @@ import Title from '../components/Title';
 import Whitespace from '../layout-components/whitespace'
 import SocialIcons from '../components/social-icons'
 import {Helmet} from 'react-helmet'
+import AdUnit from '../components/adUnit';
 
 const IndexPage = ({data}) =>{
   const allPosts = data.blogposts.edges
@@ -55,6 +56,9 @@ const IndexPage = ({data}) =>{
               <Title title='Social'/>
               <Whitespace height={10}/>
               <SocialIcons/>
+              <div>
+                <AdUnit/>
+              </div>
             </div>
           </Col>
         </Row>

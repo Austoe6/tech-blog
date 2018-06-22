@@ -23,6 +23,7 @@ import {
     WhatsappIcon,
     WhatsappShareButton
 } from 'react-share'
+import AdUnit from '../components/adUnit';
 
 class BlogPost extends React.Component{
     handleNewComment(comment) {
@@ -138,6 +139,10 @@ class BlogPost extends React.Component{
                     <Col lg={8} md={24} xs={24}>
                     <div className="blog-post__right-panel">
                         <Title title='Join our mail list'/>
+                        <div className="ad-container">
+                            <AdUnit/>       
+                            <AdUnit/>       
+                        </div>
                     </div>
                     </Col>
                 </Row>

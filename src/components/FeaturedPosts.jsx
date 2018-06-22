@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import {Row, Col} from '../layout-components/grid'
-import AdUnit from './adUnit';
 
 const FeaturedPosts = ({posts}) =>{
     return(
@@ -23,7 +22,6 @@ const FeaturedPosts = ({posts}) =>{
                 </Col>
             )
             }
-            <Col lg={8} md={24}><AdUnit/></Col>
         </Row>
     )
 }
