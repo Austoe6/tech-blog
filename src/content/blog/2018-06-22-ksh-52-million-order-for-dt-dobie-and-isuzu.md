@@ -6,7 +6,7 @@ thumbnail: /img/isuzu.jpg
 description: >-
   The Postal Corporation of Kenya has placed orders worth Sh.52 million to DT
   Dobie and Isuzu vehicle assembling companies to add on it's existing fleets.
-category: News
+category: news
 author: Austin Okhala
 featured: true
 ---
