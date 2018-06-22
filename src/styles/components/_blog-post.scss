@@ -61,6 +61,7 @@
 	
 	a {
         color: $black;
+		display: block;
     }
 
     @include bp(max-width medium){
