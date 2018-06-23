@@ -67,9 +67,7 @@ class BlogPost extends React.Component{
                         </p>
                     </div>
                 </div>
-                <div className='blog-post__header-img'>
-                <img src={postMeta.thumbnail} alt='featured image'/>
-                </div>
+                <div className='blog-post__header-img' style={{backgroundImage: `url(${postMeta.thumbnail})`}}></div>
                 <Whitespace height={60}/>
                 <Row>
                     <Col lg={4} md={24} xs={24}>
