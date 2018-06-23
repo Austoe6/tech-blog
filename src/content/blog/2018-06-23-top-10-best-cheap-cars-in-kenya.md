@@ -21,13 +21,13 @@ Nissan Sylphy Bluebird in Kenya will range from the year 2009 to 2012, though th
 
 It has the following specifications;
 
-**Maximum power:** 105-150ps               **Drive type:_ _**AWD/FF
+**Maximum power:**105-150ps               **Drive type:**AWD/FF
 
-**Engine capacity: **1,497- 1,998cc           **No. of doors: **4
+**Engine capacity:**1,497- 1,998cc           **No. of doors:**4
 
-**No. of seats:** 5                                      **Transmission: **Automatic
+**No. of seats:**5                                      **Transmission:**Automatic
 
-**Price: **Ksh. 800,000- Ksh. 1,000,000 **Fuel: **Petrol/gasoline
+**Price:**Ksh. 800,000- Ksh. 1,000,000 **Fuel:**Petrol/gasoline
 
 ![Nissan Sylphy Bluebird](/img/nissan_bluebird_sylphy_manu-06_a01.jpg)
 
@@ -41,15 +41,13 @@ Honda Insight in Kenya can be found in any car dealer, depending on the make and
 
 It has the following specifications;
 
-**Maximum power: **102-150ps            **Drive type: **AWD/FF
+**Maximum power:**102-150ps            **Drive type:**AWD/FF
 
-**Engine capacity:  **1300cc   **No. of doors: **4
+**Engine capacity:**1300cc   **No. of doors:**4
 
-**No. of seats: **5   **Transmission: **Automatic
+**No. of seats:**5   **Transmission:**Automatic
 
-**Price: **Ksh. 750,000- Ksh. 900,000 **Fuel: **Petrol
-
-
+**Price: **Ksh. 750,000- Ksh. 900,000 **Fuel:**Petrol
 
 ![Honda Insight Hybrid](/img/honda-insight-beats-toyota-prius-in-uk-6285_1.jpg)
 
@@ -61,13 +59,13 @@ Toyota Auris is a decent family car with a hatchback and a large-size trunk for 
 
 Specs include;
 
-**Engine capacity: **1800cc **No. of doors: **5
+**Engine capacity:**1800cc **No. of doors:**5
 
-**No. of seats: **5 **Interior type: **cloth
+**No. of seats:**5 **Interior type:**cloth
 
-**Transmission: **Automatic  **Fuel: **Petrol/diesel
+**Transmission:**Automatic  **Fuel:**Petrol/diesel
 
-**Price: **Ksh. 900,000- Ksh. 1,200,000
+**Price:**Ksh. 900,000- Ksh. 1,200,000
 
 ![Toyota Auris](/img/toyota_auris_523473.jpg)
 
@@ -81,13 +79,13 @@ Honda Fit, since 2017 has been on high demand in the Kenyan car market.
 
 Specs include:
 
-**Engine capacity: **1300cc **No. of doors: **5
+**Engine capacity:**1300cc **No. of doors:**5
 
-**No. of seats: **5 **Interior type: **cloth
+**No. of seats:**5 **Interior type:**cloth
 
-**Transmission: **Automatic  **Fuel: **Petrol
+**Transmission:**Automatic  **Fuel:**Petrol
 
-**Price: **Ksh. 650,000- Ksh. 850,000
+**Price:**Ksh. 650,000- Ksh. 850,000
 
 ![Honda Fit](/img/2014-honda-fit-dx-a_3.png)
 
@@ -101,15 +99,13 @@ Toyota Vitz is affordable in Kenya market and hence explains why they are so com
 
 Specs include;
 
-**Engine capacity: **1300cc **No. of doors: **4
+**Engine capacity:**1300cc **No. of doors:**4
 
-**No. of seats: **5 **Interior type: **cloth
+**No. of seats:**5 **Interior type:**cloth
 
-**Transmission: **Automatic  **Fuel: **Petrol
+**Transmission:**Automatic  **Fuel:**Petrol
 
-**Drive type: **2W  **Price: **Ksh. 650,000- Ksh. 850,000
-
-
+**Drive type:**2W  **Price:**Ksh. 650,000- Ksh. 850,000
 
 ![Toyota Vitz](/img/toyota_vitz_l_1.jpg)
 
@@ -121,13 +117,13 @@ The Demio is similar to Toyota Vitz and Honda Fit, it has a spacious interior wi
 
 Specs include;
 
-**Engine capacity: **1300cc **No. of doors: **4
+**Engine capacity:**1300cc **No. of doors:**4
 
-**No. of seats: **5 **Interior type: **cloth
+**No. of seats:**5 **Interior type:**cloth
 
-**Transmission: **Automatic  **Fuel: **Petrol
+**Transmission:**Automatic  **Fuel:**Petrol
 
-**Drive type: **2W  **Price: **Ksh. 500,000- Ksh. 800,000
+**Drive type:**2W  **Price:**Ksh. 500,000- Ksh. 800,000
 
 ![Mazda Demio](/img/mazda-demio-front-windscreen-laminated-a574-500x500.jpg)
 
@@ -139,13 +135,13 @@ It is a four-door Sedan that takes the looks of Bluebird but a little uglier( at
 
 Specs include;
 
-**Engine capacity: **1500cc **No. of doors: **4
+**Engine capacity:**1500cc **No. of doors:**4
 
-**No. of seats: **5 **Interior type: **cloth
+**No. of seats:**5 **Interior type:**cloth
 
-**Transmission: **Automatic  **Fuel: **Petrol
+**Transmission:**Automatic  **Fuel:**Petrol
 
-**Drive type: **2W  **Price: **Ksh. 700,000- Ksh. 850,000
+**Drive type:**2W  **Price:**Ksh. 700,000- Ksh. 850,000
 
 ![Nissan Tiida](/img/nissan-tiida-16-sedan-07-614x460.jpeg)
 
@@ -157,13 +153,13 @@ If it's up to me, this would be my first choice given fuel consumption, interior
 
 Specs include;
 
-**Engine capacity: **1500cc **No. of doors: **4
+**Engine capacity:**1500cc **No. of doors: **4
 
-**No. of seats: **5 **Interior type: **cloth
+**No. of seats:**5 **Interior type:**cloth
 
-**Transmission: **Automatic  **Fuel: **Petrol
+**Transmission:**Automatic  **Fuel:**Petrol
 
-**Drive type: **2W  **Price: **Ksh. 850,000- Ksh. 1,400,000
+**Drive type:**2W  **Price:**Ksh. 850,000- Ksh. 1,400,000
 
 ![Toyota Allion](/img/toyota-allion-wallpaper-18.jpg)
 
@@ -177,13 +173,13 @@ For the Kenyan roads, Volkswagen Golf is your car.
 
 Specifications include;
 
-**Engine capacity: **1400-2000cc **No. of doors: **4
+**Engine capacity:**1400-2000cc **No. of doors:**4
 
-**No. of seats: **5 **Interior type: **cloth
+**No. of seats:**5 **Interior type:**cloth
 
-**Transmission: **Automatic  **Fuel: **Petrol
+**Transmission:**Automatic  **Fuel:**Petrol
 
-**Drive type: **2W  **Price: **Ksh. 1,000,000- Ksh. 1,900,000
+**Drive type:**2W  **Price:**Ksh. 1,000,000- Ksh. 1,900,000
 
 ![VW Golf](/img/volkswagen-golf-5-door-gti.jpg)
 
@@ -195,13 +191,13 @@ At the bottom of the best cheap cars in Kenya is this sport giant. Zero to 96Km/
 
 Specifications include;
 
-**Engine capacity: **1500-2000cc **No. of doors: **4
+**Engine capacity:**1500-2000cc **No. of doors:**4
 
-**No. of seats: **5 **Interior type: **cloth
+**No. of seats:**5 **Interior type:**cloth
 
-**Transmission: **Automatic  **Fuel: **Petrol
+**Transmission:**Automatic  **Fuel:**Petrol
 
-**Drive type: **2W  **Price: **Ksh. 900,000- Ksh. 1,200,000
+**Drive type:**2W  **Price:**Ksh. 900,000- Ksh. 1,200,000
 
 ![subaru](/img/subaru.png)
 
