@@ -10,8 +10,12 @@
 .post-item__image {
     width: 100%;
     height: 240px;
-    object-fit: cover;
-    max-width: 100vh;
+    
+    img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
 }
 
 .post-item__title {
