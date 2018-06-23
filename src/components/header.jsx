@@ -5,23 +5,34 @@ import {Row, Col} from '../layout-components/grid'
 import Divider from '../layout-components/divider'
 import menuIcon from '../assets/menu.svg'
 import x from '../assets/x.svg'
-import classNames from 'classnames';
+//import classNames from 'classnames';
 
 class Header extends React.Component{
   state = {
     showNav: false
   }
 
-  handleShowMenu = () => this.setState({showNav: !this.state.showNav})
+  //operamini fix
+  //handleShowMenu = () => this.setState({showNav: !this.state.showNav})
+  handleShowMenu = () => {
+    document.getElementById('mobile-nav').classList.add('mobile-nav--show')
+    document.getElementById('nav-container').classList.add('mobile-nav--active')
+  }
 
-  handleHideMenu = () => this.setState({showNav: false})
+  //operamini fix: use js to change display option instead of state
+  //handleHideMenu = () => this.setState({showNav: false})
+  handleHideMenu = () => {
+    document.getElementById('mobile-nav').classList.remove('mobile-nav--show')
+    document.getElementById('mobile-nav').classList.add('mobile-nav--hiden')
+    document.getElementById('nav-container').classList.remove('mobile-nav--active')
+  }
 
   render(){
     const {siteTitle, location} = this.props
     const active = (h) => h === location.pathname ? {color: '#0069f2'} : {color: '#000000'}
     const menuBtnSrc = this.state.showNav ? x : menuIcon
-    const navContainerStyles = classNames('nav-container', {'mobile-nav--active': this.state.showNav})
-    const mobileNavStyles = classNames({'mobile-nav--show': this.state.showNav, 'mobile-nav--hidden': !this.state.showNav})
+    //const navContainerStyles = classNames('nav-container', {'mobile-nav--active': this.state.showNav})
+    //const mobileNavStyles = classNames({'mobile-nav--show': this.state.showNav, 'mobile-nav--hidden': !this.state.showNav})
 
     const Nav = () =>(
       <nav className='header-nav'>
@@ -43,7 +54,7 @@ class Header extends React.Component{
     )
     
     return(
-      <div className={navContainerStyles}>
+      <div className={navContainerStyles} id='nav-container'>
         <header className='header'>
           <Row className='container' type='flex' justify='space-between' style={{alignItems: 'center'}}>
             <Col onClick={this.handleHideMenu}>
@@ -65,7 +76,7 @@ class Header extends React.Component{
           </Row>
           <Divider style={{margin: 0}} />
         </header>
-        <div className={mobileNavStyles}>
+        <div id='mobile-nav' className={mobileNavStyles}>
           <Nav />
         </div>
       </div>
