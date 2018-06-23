@@ -15,8 +15,9 @@ class Header extends React.Component{
   //operamini fix
   //handleShowMenu = () => this.setState({showNav: !this.state.showNav})
   handleShowMenu = () => {
-    document.getElementById('mobile-nav').classList.add('mobile-nav--show')
     document.getElementById('nav-container').classList.add('mobile-nav--active')
+    document.getElementById('mobile-nav').classList.remove('mobile-nav--hidden')
+    document.getElementById('mobile-nav').classList.add('mobile-nav--show')
   }
 
   //operamini fix: use js to change display option instead of state
@@ -54,7 +55,7 @@ class Header extends React.Component{
     )
     
     return(
-      <div className={navContainerStyles} id='nav-container'>
+      <div id='nav-container'>
         <header className='header'>
           <Row className='container' type='flex' justify='space-between' style={{alignItems: 'center'}}>
             <Col onClick={this.handleHideMenu}>
@@ -76,7 +77,7 @@ class Header extends React.Component{
           </Row>
           <Divider style={{margin: 0}} />
         </header>
-        <div id='mobile-nav' className={mobileNavStyles}>
+        <div id='mobile-nav' className='mobile-nav--hidden'>
           <Nav />
         </div>
       </div>
