@@ -10,8 +10,7 @@ const AllPosts = ({data}) =>{
                     data.map((post) =>
                     <Col lg={12} xs={24} key={post.node.id}>
                         <div className="post-item__container">
-                            <div className="post-item__image">
-                                <img src={post.node.frontmatter.thumbnail} alt="featured image"/>
+                            <div className="post-item__image" style={{backgroundImage: `url(${post.node.frontmatter.thumbnail})`}}>
                             </div>
                             <Link to={post.node.fields.slug}>
                                 <h2 className="post-item__title">{post.node.frontmatter.title}</h2>
