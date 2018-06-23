@@ -10,8 +10,7 @@ const FeaturedPosts = ({posts}) =>{
                 <Col lg={8} md={24} key={post.node.id}>
                     <Link to={post.node.fields.slug}>
                         <div className="featured-post__container">
-                            <div className='featured-post__img'>
-                                <img src={post.node.frontmatter.thumbnail} alt="featured image"/>
+                            <div className='featured-post__img'  style={{backgroundImage: `url(${post.node.frontmatter.thumbnail})`}}>
                             </div>
                             <div className='featured-post__text'>
                                 <span>{post.node.frontmatter.category}</span>

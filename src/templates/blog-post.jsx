@@ -56,6 +56,10 @@ class BlogPost extends React.Component{
             <div className='blog-post__container'>
                 <Helmet
                     title={postMeta.title}
+                    meta={[
+                        { name: 'description', content: postMeta.description || 'TechGenius blog, we geek about technology, software, cars' },
+                        { name: 'keywords', content: 'Technology, smartphones, cars, tech reviews' },
+                      ]}
                 />
                 <Whitespace height={160}/>
                 <div className="blog-post__meta">

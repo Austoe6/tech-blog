@@ -21,6 +21,8 @@
 .featured-post__img {
     width: 30%;
     height: 80px;
+    background-position: center;
+    background-size: cover;
 
     @include bp(max-width small){
         width: 30%;
@@ -31,6 +33,7 @@
         height: 100%;
         object-fit: cover;
         display: inline-block;
+        position: relative;
     }
 }
 
