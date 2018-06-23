@@ -56,9 +56,6 @@ const IndexPage = ({data}) =>{
               <Title title='Social'/>
               <Whitespace height={10}/>
               <SocialIcons/>
-              <div>
-                <AdUnit/>
-              </div>
             </div>
           </Col>
         </Row>
