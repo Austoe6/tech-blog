@@ -23,7 +23,6 @@ import {
     WhatsappIcon,
     WhatsappShareButton
 } from 'react-share'
-import AdUnit from '../components/adUnit';
 
 class BlogPost extends React.Component{
     handleNewComment(comment) {
