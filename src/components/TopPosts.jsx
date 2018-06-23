@@ -22,9 +22,7 @@ const TopPosts = ({data}) =>{
                 </Col>
             )
             }
-            <Col lg={12} xs={24} id='ad'>
-                <AdUnit/>
-            </Col>
+            <Col lg={12} xs={24} id='ad'></Col>
         </Row>
     )
 }
