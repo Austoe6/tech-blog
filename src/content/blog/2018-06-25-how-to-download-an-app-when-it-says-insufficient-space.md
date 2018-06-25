@@ -6,7 +6,7 @@ thumbnail: /img/android.jpg
 description: Download and install apps with insufficient memory space.
 category: quick fixes
 author: Austin Okhala
-featured: false
+featured: true
 ---
 First you need to allow Installation of apps from unknown sources in your phone;
 
