@@ -12,11 +12,11 @@ const Layout = ({ children, data, location }) => (
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
-        { name: 'description', content: 'TechGenius we geek about technology, software, cars' },
-        { name: 'keywords', content: 'Technology, smartphones, cars, tech reviews' },
+        { name: 'description', content: 'TechGenius we geek about technology, software, cars and smartphones in Kenya. Get solution to all smartphone problems' },
+        { name: 'keywords', content: 'Technology, smartphones in kenya, cars kenya, tech reviews' },
       ]}
     />
-    <Header siteTitle={data.site.siteMetadata.title} location={location} />
+    <Header siteTitle={`${data.site.siteMetadata.title} | We geek about technology, software, cars and smartphones in Kenya`} location={location} />
     <div>
       {children()}
     </div>
