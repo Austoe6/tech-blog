@@ -3,7 +3,7 @@ import Whitespace from '../layout-components/whitespace';
 import Title from '../components/Title';
 import TopPosts from '../components/TopPosts';
 import Helmet from 'react-helmet'
-import { Row } from '../layout-components/grid';
+import { Row, Col } from '../layout-components/grid';
 import AllPosts from '../components/AllPosts';
 
 class CategoryPage extends React.Component{
