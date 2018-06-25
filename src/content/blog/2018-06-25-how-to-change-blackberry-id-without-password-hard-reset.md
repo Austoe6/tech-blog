@@ -6,7 +6,7 @@ thumbnail: /img/bbid2.jpg
 description: How to change your blackberry Id and email without the previous password.
 category: quick fixes
 author: Austin Okhala
-featured: false
+featured: true
 ---
 It's so frustrating having a BlackBerry phone when ID is someone else, or just forgot the password and recovery password too. Here is what you need to do;
 
