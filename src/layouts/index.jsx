@@ -10,13 +10,13 @@ import Divider from '../layout-components/divider';
 const Layout = ({ children, data, location }) => (
   <div>
     <Helmet
-      title={data.site.siteMetadata.title}
+      title={`${data.site.siteMetadata.title} | We geek about technology, software, cars and smartphones in Kenya`}
       meta={[
         { name: 'description', content: 'TechGenius we geek about technology, software, cars and smartphones in Kenya. Get solution to all smartphone problems' },
         { name: 'keywords', content: 'Technology, smartphones in kenya, cars kenya, tech reviews' },
       ]}
     />
-    <Header siteTitle={`${data.site.siteMetadata.title} | We geek about technology, software, cars and smartphones in Kenya`} location={location} />
+    <Header siteTitle={data.site.siteMetadata.title} location={location} />
     <div>
       {children()}
     </div>
