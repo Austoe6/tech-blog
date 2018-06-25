@@ -8,7 +8,7 @@ description: >-
   solution.Tested.
 category: quick fixes
 author: Austin Okhala
-featured: false
+featured: true
 ---
 Ever since WhatsApp withdrew it's services to BlackBerry phones BlackBerry owners have been looking everywhere to get back the service. When I bought my BlackBerry Q10 I spent a lot of time trying different ways to go workaround the WhatsApp ban. Luckily for you the answer is right here, tested and applied. No need to waste time and money to access the service. GBWhatsApp has it all.
 
