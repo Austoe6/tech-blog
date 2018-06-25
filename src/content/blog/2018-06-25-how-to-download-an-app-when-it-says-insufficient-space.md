@@ -1,0 +1,15 @@
+---
+templateKey: blog
+title: How to download an app when it says 'insufficient space'
+date: '2018-06-25T08:54:03+03:00'
+thumbnail: /img/android.jpg
+description: Download and install apps with low storage memory.
+category: quick fixes
+author: Austin Okhala
+featured: false
+---
+First you need to allow Installation of apps from unknown sources in your phone;
+
+* Go to Settings
+* Select manage unknown source or (Security>Check allow Unknown sources)
+* Go your browser and search the app "MyApp" like this "MyApp apkpure/MyApp akp".
