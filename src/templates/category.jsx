@@ -17,7 +17,7 @@ class CategoryPage extends React.Component{
             <div>
                 <Helmet title={`${category} | ${title}`} />
                 <Whitespace/>
-                <div style={{backgroundImage: `url(${posts[0].node.frontmatter.thumbnail})`, marginBottom: 20}}>
+                <div style={{backgroundImage: `url(${posts[0].node.frontmatter.thumbnail})`, marginBottom: 20, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
                     <div className="category-page__header">
                         <div className="container">
                             <h1>{category}</h1>

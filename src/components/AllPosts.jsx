@@ -26,7 +26,7 @@ const AllPosts = ({data}) =>{
             </Row>
             <Link to='/categories'>
                 <div className="load-more">
-                    Load More
+                    More Posts
                 </div>
             </Link>
         </div>
