@@ -1,6 +1,7 @@
 import React from 'react'
 import {Row, Col} from '../layout-components/grid'
 import Link from 'gatsby-link'
+import { kebabCase } from 'lodash'
 
 const AllPosts = ({data}) =>{
     return (
@@ -16,7 +17,7 @@ const AllPosts = ({data}) =>{
                                 <h2 className="post-item__title">{post.node.frontmatter.title}</h2>
                             </Link>
                             <div className="post-item__meta">
-                                <span>{post.node.frontmatter.date} in <Link to='/'>#{post.node.frontmatter.category}</Link></span>
+                                <span>{post.node.frontmatter.date} in <Link to={`/categories/${kebabCase(post.node.frontmatter.category)}`}>#{post.node.frontmatter.category}</Link></span>
                             </div>
                             <p className="post-item__excerpt">{post.node.excerpt}</p>
                         </div>
