@@ -6,7 +6,7 @@ thumbnail: /img/android.jpg
 description: Installing apps from unknown sources.
 category: quick fixes
 author: Austin Okhala
-featured: false
+featured: true
 ---
 * Go to settings
 * Select security
