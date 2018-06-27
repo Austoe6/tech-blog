@@ -143,9 +143,9 @@ class BlogPost extends React.Component{
                         <div className="blog-post__right-panel">
                             <Title title='Join our mail list'/>
                             <div style={{paddingTop: 10}}>
-                                <a href="http://c.jumia.io/?a=95078&c=723&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=95078&utm_term=">
-                                    <img src="https://affiliates.jumia.com/banners/Jumia Kenya/FreeDelivery/320X100.jpg"/>
-                                </a>
+                            <a href="http://c.jumia.io/?a=95078&c=703&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=95078&utm_term=">
+                            <img src="https://affiliates.jumia.com/banners/Jumia Kenya/PHONES-TABLETS/320X100.png"/>
+                            </a>
                             </div>
                             <div style={{paddingTop: 10}}>
                                 <a href="http://c.jumia.io/?a=95078&c=703&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=95078&utm_term=">
