@@ -140,9 +140,14 @@ class BlogPost extends React.Component{
                         />
                     </Col>
                     <Col lg={8} md={24} xs={24}>
-                    <div className="blog-post__right-panel">
-                        <Title title='Join our mail list'/>
-                    </div>
+                        <div className="blog-post__right-panel">
+                            <Title title='Join our mail list'/>
+                            <div>
+                                <a href="http://c.jumia.io/?a=95078&c=723&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=95078&utm_term=">
+                                    <img src="https://affiliates.jumia.com/banners/Jumia Kenya/FreeDelivery/320X100.jpg"/>
+                                </a>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
                 <Whitespace height={60}/>
