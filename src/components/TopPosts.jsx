@@ -1,7 +1,6 @@
 import React from 'react'
 import {Row, Col} from '../layout-components/grid'
 import Link from 'gatsby-link'
-import AdUnit from './adUnit';
 
 const TopPosts = ({data}) =>{
     return (

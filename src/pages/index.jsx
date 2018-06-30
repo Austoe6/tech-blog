@@ -9,7 +9,6 @@ import Title from '../components/Title';
 import Whitespace from '../layout-components/whitespace'
 import SocialIcons from '../components/social-icons'
 import {Helmet} from 'react-helmet'
-import AdUnit from '../components/adUnit';
 import SignUpForm from '../components/SignUpForm';
 
 const IndexPage = ({data}) =>{
