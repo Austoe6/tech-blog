@@ -10,6 +10,7 @@ import Whitespace from '../layout-components/whitespace'
 import SocialIcons from '../components/social-icons'
 import {Helmet} from 'react-helmet'
 import AdUnit from '../components/adUnit';
+import SignUpForm from '../components/SignUpForm';
 
 const IndexPage = ({data}) =>{
   const allPosts = data.blogposts.edges
@@ -52,15 +53,11 @@ const IndexPage = ({data}) =>{
             <Whitespace height ={16}/>
             <div className="side-panel">
               <Title title='Join our Maillist'/>
+              <SignUpForm/>
               <Whitespace height={20}/>
               <Title title='Social'/>
               <Whitespace height={10}/>
               <SocialIcons/>
-              <div>
-                <a href="http://c.jumia.io/?a=95078&c=193&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=95078&utm_term=">
-                  <img src="http://jumia.co/nl-templates-kenya/Affiliates/Newsletter/GDN/KE/Infinix%20Pay%20Day%20Deal/320X100.jpg"/>
-                </a>
-              </div>
             </div>
           </Col>
         </Row>

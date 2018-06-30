@@ -12,8 +12,8 @@ const Layout = ({ children, data, location }) => (
     <Helmet
       title={`${data.site.siteMetadata.title} | We geek about technology, software, cars and smartphones in Kenya`}
       meta={[
-        { name: 'description', content: 'TechGenius we geek about technology, software, cars and smartphones in Kenya. Get solution to all smartphone problems' },
-        { name: 'keywords', content: 'Technology, smartphones in kenya, cars kenya, tech reviews' },
+        { name: 'description', content: 'TechGenius we geek about technology, software problems fixes, cars, smartphones specs and prices in Kenya. Get smarter with TechGenius Kenya! No. 1 Kenya Tech blog' },
+        { name: 'keywords', content: 'Technology, smartphones in kenya, cars kenya, tech reviews Kenya' },
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} location={location} />

@@ -23,6 +23,7 @@ import {
     WhatsappIcon,
     WhatsappShareButton
 } from 'react-share'
+import SignUpForm from '../components/SignUpForm';
 
 class BlogPost extends React.Component{
     handleNewComment(comment) {
@@ -132,6 +133,11 @@ class BlogPost extends React.Component{
                             </LinkedinShareCount>
                             </a>
                         </div>
+                        <div style={{paddingTop: 20}}>
+                            <a href="http://c.jumia.io/?a=95078&c=733&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=95078&utm_term=">
+                                <img src="https://affiliates.jumia.com/banners/Jumia Kenya/JumiaAnniversary/JA-brand-visuals-300_100.jpg"/>
+                            </a>
+                        </div>
                     </Col>
                     <Col lg={12} md={24} xs={24}>
                         <div
@@ -142,11 +148,7 @@ class BlogPost extends React.Component{
                     <Col lg={8} md={24} xs={24}>
                         <div className="blog-post__right-panel">
                             <Title title='Join our mail list'/>
-                            <div style={{paddingTop: 10}}>
-                            <a href="http://c.jumia.io/?a=95078&c=733&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=95078&utm_term=">
-                            <img src="https://affiliates.jumia.com/banners/Jumia Kenya/JumiaAnniversary/JA-brand-visuals-300_100.jpg"/>
-                            </a>
-                            </div>
+                            <SignUpForm />
                             <div style={{paddingTop: 10}}>
                                 <a href="http://c.jumia.io/?a=95078&c=703&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=95078&utm_term=">
                                     <img src="https://affiliates.jumia.com/banners/Jumia Kenya/PHONES-TABLETS/320X100.png"/>

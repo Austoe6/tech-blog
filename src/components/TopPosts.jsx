@@ -22,7 +22,13 @@ const TopPosts = ({data}) =>{
                 </Col>
             )
             }
-            <Col lg={12} xs={24} id='ad'></Col>
+            <Col lg={12} xs={24} id='ad'>
+                <div style={{paddingTop: 20}}>
+                    <a href="http://c.jumia.io/?a=95078&c=193&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=95078&utm_term=">
+                        <img src="http://jumia.co/nl-templates-kenya/Affiliates/Newsletter/GDN/KE/Infinix%20Pay%20Day%20Deal/320X100.jpg"/>
+                    </a>
+                </div>
+            </Col>
         </Row>
     )
 }

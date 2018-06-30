@@ -1,0 +1,63 @@
+.contact-form__container {
+    display: block;
+}
+
+.contact-form {
+    label {
+        padding-top: 10px;
+
+        input {
+            margin-top: 10px;
+            margin-right: 1rem;
+            border: 2px solid $primary;
+            border-radius: 20px;
+            padding: space(1) space(3);
+
+            @include bp(max-width small){
+                width: 100%
+            }
+        }
+
+        textarea {
+            display: block;
+            margin-top: 10px;
+            border: 2px solid $primary;
+            border-radius: 20px;
+            padding: space(1) space(3);
+            min-height: 4rem;
+            min-width: 60%;
+            
+            @include bp(max-width small){
+                width: 100%
+            }
+        }
+    }
+}
+
+.contact-form__message {
+    display: block;
+}
+
+.contact-form__submit-btn {
+    margin-top: 10px;
+}
+
+//button outline
+.btn--outline {
+    background-color: transparent;
+    border: 2px solid $primary;
+    border-radius: 20px;
+    padding: space(1) space(3);
+    font-weight: bold;
+    color: $blue;
+    cursor: pointer;
+    
+    img {
+      margin-left: space(1);
+    }
+    
+    &:hover {
+      color: $blue;
+      background-color: lighten($blue, 35%);
+    }
+}
