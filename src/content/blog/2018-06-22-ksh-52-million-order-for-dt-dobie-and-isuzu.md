@@ -2,7 +2,7 @@
 templateKey: blog
 title: Ksh. 52 million order for DT Dobie and Isuzu
 date: '2018-06-22T09:51:38+03:00'
-thumbnail: /img/isuzu.jpg
+thumbnail: /img/trucks-2320435_1280.jpg
 description: >-
   The Postal Corporation of Kenya has placed orders worth Sh.52 million to DT
   Dobie and Isuzu vehicle assembling companies to add on it's existing fleets.
