@@ -2,7 +2,7 @@
 templateKey: blog
 title: Paypal to m-pesa transfer rates
 date: '2018-07-01T16:43:10+03:00'
-thumbnail: /img/paypal-mpesa.jpg
+thumbnail: /img/paypal-3372585_1280.png
 description: >-
   How to deposit money to paypal via m-pesa. Paypal to m-pesa transfer rates;
   time taken to receive money tranfer from paypal.
