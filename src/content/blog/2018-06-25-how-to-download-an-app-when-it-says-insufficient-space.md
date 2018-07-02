@@ -1,8 +1,8 @@
 ---
 templateKey: blog
-title: How to download an app when it says 'insufficient space'
+title: How to download an app with 'insufficient space'
 date: '2018-06-25T08:54:03+03:00'
-thumbnail: /img/android.jpg
+thumbnail: /img/android-1693894_1920.jpg
 description: Download and install apps with insufficient memory space.
 category: quick fixes
 author: Austin Okhala
