@@ -2,7 +2,7 @@
 templateKey: blog
 title: 'Install WhatsApp on Blackberry for free, WhatsApp10 is not the only option!'
 date: '2018-06-25T09:07:49+03:00'
-thumbnail: /img/bbid2.jpg
+thumbnail: /img/phone-1150261_1280.jpg
 description: >-
   Install WhatsApp in your BlackBerry for free. GBWhatsApp is the
   solution.Tested.
