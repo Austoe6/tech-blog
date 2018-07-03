@@ -17,3 +17,9 @@ Others would take screenshot unfortunately you can't screenshot a video. The sol
 With the GBInsta version of Instagram you can have more fun without limits. I'm using it and would give it a plus.
 
 Click [here](https://latestmodapks.com/gb-instagram-apk-download-android/) to download.
+
+**NOTE:** The above download version is experiencing some bugs as of late. Stay in touch, I'll let you know when it's fixed.
+
+However, the whatsapp version is supercool, with all themes and freedom you want, you can make what you want it to be. 
+
+See also [GBWhatsApp](https://www.techgenius.me/2018-06-25-install-whatsapp-on-blackberry-for-free-whatsapp10-is-not-the-only-option/) Install.
