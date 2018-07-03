@@ -134,9 +134,7 @@ class BlogPost extends React.Component{
                             </a>
                         </div>
                         <div style={{paddingTop: 20}}>
-                            <a href="http://c.jumia.io/?a=95078&c=733&p=r&E=kkYNyk2M4sk%3d&utm_source=cake&utm_medium=affiliation&utm_campaign=95078&utm_term=">
-                                <img src="https://affiliates.jumia.com/banners/Jumia Kenya/JumiaAnniversary/JA-brand-visuals-300_100.jpg"/>
-                            </a>
+                
                         </div>
                     </Col>
                     <Col lg={12} md={24} xs={24}>
