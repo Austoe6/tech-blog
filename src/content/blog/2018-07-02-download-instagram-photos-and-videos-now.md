@@ -3,7 +3,11 @@ templateKey: blog
 title: Download Instagram photos and videos now!!!
 date: '2018-07-02T16:07:35+03:00'
 thumbnail: /img/smartphone-1701096_1280.jpg
-description: How to download Instagram photos and videos from Instagram.
+description: >-
+  How to download Instagram photos and videos from Instagram? It's easy to
+  download videos and photos from Instagram these days, use GBInstagram, all you
+  Instagram download problems are catered for with this new genius app. I love
+  the freedom with using GBInstagram. TechGenius has it all covered.. 
 category: quick fixes
 author: Austin Okhala
 featured: true
