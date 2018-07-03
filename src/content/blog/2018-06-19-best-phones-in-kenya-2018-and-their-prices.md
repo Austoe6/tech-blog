@@ -3,11 +3,7 @@ templateKey: blog
 title: Best phones in Kenya 2018 and their prices
 date: '2018-06-19T18:05:16+03:00'
 thumbnail: /img/dscf9432-1024x683.jpg
-description: >-
-  Whether you are looking for the high-end phones or the cheaper phones,2018
-  just got more deals for you. Luckily, we got you covered. With as low as
-  Ksh.9000 you can walk home with a great deal this year. These are the best
-  phones in Kenya 2018..
+description: ' With as low as Ksh.9000 you can walk home with a great deal this year. These are the best phones in Kenya 2018..Buy Jumia phones in Kenya at cheap prizes, a lot of offers Kenyans 2018. You can now own the smartphone of your dream with Jumia Kenya. From Iphone X, oppo F5,  oppo F3, Infinix, xiaomi.. all covered;their features and prices in Kenya. The best phones in Kenya 2018. Be a smart Kenyan, buy Kenya''s best smartphones!'
 category: phones and gadgets
 author: Austin O
 featured: true
