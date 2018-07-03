@@ -3,7 +3,11 @@ templateKey: blog
 title: How to change BlackBerry ID without password/ Hard reset
 date: '2018-06-25T08:21:56+03:00'
 thumbnail: /img/phone-1150261_1280.jpg
-description: How to change your blackberry Id and email without the previous password.
+description: >-
+  How to change your blackberry Id and email without the previous
+  password.Changing your BlackBerry Id could be stressful when you can't
+  remember the password. You can simply hard-reset your BlackBerry. To
+  hard-reset/factory reset is different from security wipe for the BlackBerry.
 category: quick fixes
 author: Austin Okhala
 featured: true
