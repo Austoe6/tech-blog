@@ -5,7 +5,8 @@ date: '2018-06-25T09:07:49+03:00'
 thumbnail: /img/phone-1150261_1280.jpg
 description: >-
   Install WhatsApp in your BlackBerry for free. GBWhatsApp is the
-  solution.Tested.
+  solution.Tested.With whatsoever Blackberry version; blackberry Q10, Blackberry
+  Z3 so on.. WhatsApp is there for you, WhatsApp for all BlackBerry! 
 category: quick fixes
 author: Austin Okhala
 featured: true
