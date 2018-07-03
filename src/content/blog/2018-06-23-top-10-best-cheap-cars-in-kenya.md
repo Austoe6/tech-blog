@@ -6,7 +6,8 @@ thumbnail: /img/honda-insight-beats-toyota-prius-in-uk-6285_1.jpg
 description: >-
   Top 10 best cheap cars in Kenya, Honda Insight price in Kenya and features,
   Toyota Allion, Toyota Vitz, Honda Fit, Toyota Auris, Mazda demio price in
-  Kenya.
+  Kenya.Buy Kenya's best cars 2018. Don't just drive a car. Drive Kenyas
+  luxurious cheap cars. We've made the selection for you. 
 category: cars
 author: Austin O
 featured: true
