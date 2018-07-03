@@ -2,7 +2,7 @@
 templateKey: blog
 title: How to change BlackBerry ID without password/ Hard reset
 date: '2018-06-25T08:21:56+03:00'
-thumbnail: /img/bbid2.jpg
+thumbnail: /img/phone-1150261_1280.jpg
 description: How to change your blackberry Id and email without the previous password.
 category: quick fixes
 author: Austin Okhala

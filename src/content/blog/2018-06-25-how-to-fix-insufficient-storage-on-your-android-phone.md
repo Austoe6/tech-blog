@@ -2,7 +2,7 @@
 templateKey: blog
 title: How to fix 'Insufficient storage' on your android phone.
 date: '2018-06-25T07:05:48+03:00'
-thumbnail: /img/insufficient-staorage-android.png
+thumbnail: /img/digital-storage-media-1443484_1920.jpg
 description: Free up your android memory space.
 category: quick fixes
 author: Austin Okhala
@@ -17,9 +17,9 @@ You probably have had an 'Insufficient storage' pop up while trying to install a
 
 The following will appear;
 
-![](/img/screenshot_20180625-070130-2-.png)
+![null](/img/screenshot_20180625-070130-2-.png)
 
 * Choose the app you want to free space, mostly the one occupying more space.
 * Clear cache/ Clear data
 
-![](/img/screenshot_20180625-070156.png)
+![null](/img/screenshot_20180625-070156.png)

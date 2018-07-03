@@ -2,7 +2,7 @@
 templateKey: blog
 title: How Kenyans suppress their own innovation sector
 date: '2018-06-28T17:49:40+03:00'
-thumbnail: /img/innovation-1.jpg
+thumbnail: /img/filmmaker-2838945_1920.jpg
 description: 'Kenyan politics will cripple its innovation sector, be warned! '
 category: news
 author: Austin Okhala
