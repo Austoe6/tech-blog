@@ -3,7 +3,11 @@ templateKey: blog
 title: How to send money with PayPal without a Credit Card
 date: '2018-07-03T16:15:31+03:00'
 thumbnail: /img/paypal-3460582_1920.jpg
-description: How to send money/make payment with PayPal without a credit card.
+description: >-
+  Welcome to TechGenius! How to send money/make payment with PayPal without a
+  credit card. With no credit card or bank account you can still send/make
+  payment with PayPal. You don't need to worry much if you're lacking a bank
+  account,you can still use PayPal. TechGenius has it covered..
 category: quick fixes
 author: Austin Okhala
 featured: true
