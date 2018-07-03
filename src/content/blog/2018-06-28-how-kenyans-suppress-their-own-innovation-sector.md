@@ -3,7 +3,11 @@ templateKey: blog
 title: How Kenyans suppress their own innovation sector
 date: '2018-06-28T17:49:40+03:00'
 thumbnail: /img/filmmaker-2838945_1920.jpg
-description: 'Kenyan politics will cripple its innovation sector, be warned! '
+description: >-
+  Welcome to TechGenius Kenya. Kenyan politics will cripple its innovation
+  sector, be warned! Innovation in Kenya is stagnant. We've put lot of focus on
+  our politics and forgot that Kenya needs to grow both political and
+  Technological.
 category: news
 author: Austin Okhala
 featured: true
