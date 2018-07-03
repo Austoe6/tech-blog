@@ -3,7 +3,10 @@ templateKey: blog
 title: 'The new galaxy note 9, inscreen fingerprint scanner'
 date: '2018-06-18T19:05:36+03:00'
 thumbnail: /img/samsung_galaxy_note_9_release_date_rumours.png
-description: Leaked specs and designs of the much anticipated galaxy note
+description: >-
+  The Samsung Galaxy note 9 specs!The note 9 has been the talk of everyone,here
+  are some of the leaked features of Samsung Galaxy Note 9. We introduce to you
+  the in-screen fingerprint scanner by note 9.
 category: phones and gadgets
 author: Austin Okhala
 featured: true
