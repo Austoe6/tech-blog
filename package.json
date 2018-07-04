@@ -19,10 +19,12 @@
     "lodash": "^4.17.10",
     "mappy-breakpoints": "^0.2.3",
     "netlify-cms": "^1.9.2",
+    "netlify-lambda": "^0.4.0",
     "react-disqus-comments": "^1.2.0",
     "react-helmet": "^5.2.0",
     "react-share": "^2.2.0",
-    "react-transition-group": "^2.4.0"
+    "react-transition-group": "^2.4.0",
+    "request": "^2.87.0"
   },
   "keywords": [
     "gatsby"
@@ -31,8 +33,17 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "build:lambda": "netlify-lambda build src/lambda",
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "proxy": {
+    "/.netlify/functions": {
+      "target": "http://localhost:9000",
+      "pathRewrite": {
+        "^/\\.netlify/functions": ""
+      }
+    }
   },
   "devDependencies": {
     "prettier": "^1.12.0"
