@@ -8,6 +8,7 @@ module.exports.handler = (event, context, callback) => {
 
     const formData = JSON.parse(event.body);
     const email = formData.email;
+    const name = formData.names
     let errorMessage = null;
 
     if (!formData) {
@@ -31,7 +32,9 @@ module.exports.handler = (event, context, callback) => {
     const data = {
         email_address: email,
         status: "subscribed",
-        merge_fields: {}
+        merge_fields: {
+            FNAME: name
+        }
     };
 
     const subscriber = JSON.stringify(data);

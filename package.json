@@ -5,6 +5,7 @@
   "author": "GeoffOkumu",
   "dependencies": {
     "autoprefixer": "^8.6.2",
+    "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "enquire.js": "^2.1.6",
     "gatsby": "^1.9.247",
