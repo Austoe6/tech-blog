@@ -32,7 +32,7 @@ class BlogPost extends React.Component{
     }
 
     render(){
-        const {data} = this.props
+        const {data, transition} = this.props
         const post = data.blogPost
         const postId = this.props.pathContext.id
         const postMeta = post.frontmatter
@@ -54,7 +54,7 @@ class BlogPost extends React.Component{
         })
 
         return(
-            <div className='blog-post__container'>
+            <div  style={transition && transition.style} className='blog-post__container'>
                 <Helmet
                     title={postMeta.title}
                     meta={[
@@ -62,6 +62,14 @@ class BlogPost extends React.Component{
                         { name: 'keywords', content: 'Technology, smartphones, cars, tech reviews' },
                       ]}
                 />
+                <Helmet>
+                    <meta property="og:title" content={title} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:url" content={shareUrl} />
+                    <meta property="og:image" content={`http://wwww.techgenius.me${postMeta.thumbnail}`} />
+                    <meta property="og:description" content={ postMeta.description || 'Techgenius blog,  we geek about technology, software...'} />
+                    <meta name="twitter:card" content={title}/>
+                </Helmet>
                 <Whitespace height={160}/>
                 <div className="blog-post__meta">
                     <h1>{postMeta.title}</h1>

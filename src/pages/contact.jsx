@@ -3,10 +3,10 @@ import Whitespace from '../layout-components/whitespace'
 import SocialIcons from '../components/social-icons'
 import Title from '../components/Title';
 
-const ContactPage = ({data}) =>{
+const ContactPage = ({data, transition}) =>{
     const aboutData = data.about.edges[0].node
     return(
-        <div>
+        <div style={transition && transition.style}>
             <Whitespace/>
             <div style={{backgroundImage: `url(${aboutData.frontmatter.image})`}}>
                 <div className="about-page__header">

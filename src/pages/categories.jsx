@@ -3,10 +3,10 @@ import Whitespace from '../layout-components/whitespace'
 import Categories from '../components/Categories'
 import Title from '../components/Title';
 
-const CategoriesPage = ({data}) =>{
+const CategoriesPage = ({data, transition}) =>{
     return(
-        <div className="container" style={{paddingTop:100}}>
-          <Whitespace height={60}/>
+        <div className="container" style={transition && transition.style}>
+          <Whitespace height={160}/>
           <Title title='All categories'/>
           <Whitespace height={20}/>
           <div>

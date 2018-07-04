@@ -1,15 +1,18 @@
 import React from 'react'
+import classnames from 'classnames'
 
 class SignUpForm extends React.Component{
     state = {
         name: '',
         email: '',
+        loading: false,
+        success: false
     }
 
     handleSubmit = (e) => {
         e.preventDefault()
         console.log('submited form')
-        this.setState({name: '', email:''})
+        this.setState({loading: true})
     }
 
     handleNameChange = (e) => this.setState({name: e.target.value})
@@ -17,9 +20,17 @@ class SignUpForm extends React.Component{
     handleEmailChange = (e) => this.setState({email: e.target.value})
     
     render(){
+        if (this.state.loading){
+            return (
+                <div className="contact-form__loader">
+                    Submiting...
+                </div>
+            )
+        }
+
         return(
-            <div className="contact-form" onSubmit={this.handleSubmit}>
-                <form>
+            <div className="contact-form">
+                <form onSubmit={this.handleSubmit}>
                     <label>
                         <input type="text" placeholder='Name' value={this.state.name} onChange={this.handleNameChange} />
                     </label>

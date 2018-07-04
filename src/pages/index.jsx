@@ -11,7 +11,7 @@ import SocialIcons from '../components/social-icons'
 import {Helmet} from 'react-helmet'
 import SignUpForm from '../components/SignUpForm';
 
-const IndexPage = ({data}) =>{
+const IndexPage = ({data, transition}) =>{
   const allPosts = data.blogposts.edges
   const featuredPosts = data.featuredPosts.edges
   const aboutData = data.about
@@ -26,7 +26,7 @@ const IndexPage = ({data}) =>{
   })
 
   return(
-    <div>
+    <div style={transition && transition.style}>
       <Helmet>
         <meta name="google-site-verification" content="D4nmmh7GN4IXDcMhOT9XICJ9QuF7uCugTrurqSgXaqQ" />
       </Helmet>

@@ -3,12 +3,11 @@ import Whitespace from '../layout-components/whitespace'
 import { Row, Col } from '../layout-components/grid'
 import SocialIcons from '../components/social-icons'
 
-const AboutPage = ({data}) =>{
-    console.log(data)
+const AboutPage = ({data, transition}) =>{
     const aboutData = data.about.edges[0].node
     const profileData = data.authors.edges[0].node.frontmatter.authors[1]
     return(
-        <div>
+        <div style={transition && transition.style}>
             <Whitespace/>
             <div style={{backgroundImage: `url(${aboutData.frontmatter.image})`}}>
                 <div className="about-page__header">

@@ -8,13 +8,13 @@ import AllPosts from '../components/AllPosts';
 
 class CategoryPage extends React.Component{
     render(){
-        const {data} = this.props
+        const {data, transition} = this.props
         const posts = data.allMarkdownRemark.edges
         const recentPosts = posts.length > 2 ? posts.slice(0, 2) : posts
         const category = this.props.pathContext.category
         const title = this.props.data.site.siteMetadata.title
         return(
-            <div>
+            <div style={transition && transition.style}>
                 <Helmet title={`${category} | ${title}`} />
                 <Whitespace/>
                 <div style={{backgroundImage: `url(${posts[0].node.frontmatter.thumbnail})`, marginBottom: 20, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>

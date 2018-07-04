@@ -20,7 +20,8 @@
     "netlify-cms": "^1.9.2",
     "react-disqus-comments": "^1.2.0",
     "react-helmet": "^5.2.0",
-    "react-share": "^2.2.0"
+    "react-share": "^2.2.0",
+    "react-transition-group": "^2.4.0"
   },
   "keywords": [
     "gatsby"

@@ -16,6 +16,10 @@
             @include bp(max-width small){
                 width: 100%
             }
+
+            &:focus {
+                border-radius: 5px;
+            }
         }
 
         textarea {
@@ -32,6 +36,10 @@
             }
         }
     }
+}
+
+.contact-form__loader {
+    padding: 20px 10px;
 }
 
 .contact-form__message {
