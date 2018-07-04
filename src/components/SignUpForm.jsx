@@ -79,13 +79,13 @@ class SignUpForm extends React.Component{
             )
         }
 
-        if(this.state.validationError){
+        if(this.state.submitError){
             return(
                 <div className='contact-form__submit-error'>
                     <div className='error-icon'>
                         <img src={errorIcon} alt='tick'/>
                     </div>
-                    <p>We encountered an error submiting your reques</p>
+                    <p>We encountered an error submiting your request</p>
                 </div>
             )
         }
