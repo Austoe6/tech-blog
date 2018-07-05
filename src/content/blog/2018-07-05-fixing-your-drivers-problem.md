@@ -42,6 +42,6 @@ With the sound card not working you have two options.
 
 (c). Graphics
 
-With graphics I honestly recommend you to try Driver Booster5 at least that's what I use with that and it works fine. 
+With graphics I honestly recommend you to try Driver Booster5 at least that's what I use with that and it works fine. Click to [download](https://www.iobit.com/en/driver-booster.php).
 
 For anymore inquiries you can email me anytime. Please subscribe for constant updates.
