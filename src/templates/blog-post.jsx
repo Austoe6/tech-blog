@@ -62,14 +62,6 @@ class BlogPost extends React.Component{
                         { name: 'keywords', content: 'Technology, smartphones, cars, tech reviews' },
                       ]}
                 />
-                <Helmet>
-                    <meta property="og:title" content={title} />
-                    <meta property="og:type" content="website" />
-                    <meta property="og:url" content={shareUrl} />
-                    <meta property="og:image" content={`https://wwww.techgenius.me${postMeta.thumbnail}`} />
-                    <meta property="og:description" content={ postMeta.description || 'Techgenius blog,  we geek about technology, software...'} />
-                    <meta name="twitter:card" content="summary"/>
-                </Helmet>
                 <Whitespace height={160}/>
                 <div className="blog-post__meta">
                     <h1>{postMeta.title}</h1>
