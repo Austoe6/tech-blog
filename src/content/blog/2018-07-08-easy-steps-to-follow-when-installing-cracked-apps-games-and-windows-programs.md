@@ -22,4 +22,4 @@ Where I come from we've got a saying 'If you have to eat pork, slaughter the fat
 
 You will need an Winrar (or a zip file extraction programs for most games) Winzip and ultraiso burn. 
 
-This is not for all programs and also not for any program, it is a **general rule** for all programs and games.
+This may not apply for all programs, but it's a **general rule** for all programs and games.
