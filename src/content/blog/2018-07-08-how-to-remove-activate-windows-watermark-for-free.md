@@ -13,7 +13,7 @@ featured: true
 ---
 First, I have to let you know this windows activation process is not legal. However, due to one reason or the other we may find ourselves in situations where we can't afford to pay out for the legal licence key. It's understandable and you should not feel ashamed about. So here is a way to remove the activate window watermark that always irritates when using your devices.
 
-1. You first need to [download](https://www.officialkmspico.com/download) KMSpico Windows activator and install. ( See also: How to install windows app & cracked apps).
+1. You first need to [download](https://www.officialkmspico.com/download) KMSpico Windows activator and install. ( See also: [How to install windows app & cracked apps](https://www.techgenius.me/2018-07-08-easy-steps-to-follow-when-installing-cracked-apps-games-and-windows-programs/)).
 2. Start the app, if prompt 'user account control windows' click "yes"
 3. A dialog box will appear as follows; click the red button to activate if it's a fresh install of your windows.
 
