@@ -3,6 +3,11 @@ templateKey: blog
 title: How to install Windows 10 for free!
 date: '2018-07-10T17:06:31+03:00'
 thumbnail: /img/windows-95-1535864_1280.jpg
+description: >-
+  How to install cracked Windows 10 from getIntoPC. You can install your Windows
+  10 without giving a penny, there are many tricks I'll walk you through. I'm
+  Austin Okhala. You don't have to quit on your laptop just because you can't
+  afford Windows 10. Here are tips to get your Windows set to go!
 category: quick fixes
 author: Austin Okhala
 featured: true
