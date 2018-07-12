@@ -5,8 +5,8 @@ import { kebabCase } from 'lodash'
 
 const AllPosts = ({data}) =>{
     return (
-        <div className="all-posts__container">
-            <Row className='border-right'>
+        <div className="all-posts__container border-right">
+            <Row>
                 {
                     data.map((post) =>
                     <Col lg={12} xs={24} key={post.node.id}>

@@ -22,7 +22,7 @@ export default CategoriesPage
 export const query = graphql`
   query Categories {
     categories: allMarkdownRemark(
-      limit: 12
+      limit: 1000
       filter: {frontmatter: {templateKey: {eq: "blog"}}}
     ){
       group(field: frontmatter___category){
