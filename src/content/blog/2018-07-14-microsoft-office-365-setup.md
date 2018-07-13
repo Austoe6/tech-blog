@@ -13,7 +13,7 @@ category: quick fixes
 author: Austin Okhala
 featured: true
 ---
-Welcome back! From the suggestions I got, I figured I should share to you this tutorial on how to get our Microsoft Office 365 ready. If you have been using any Microsoft Office product for a while you probably have faced problems with your copy getting outdated. Sometimes these problems get us in fine moment, you're not actually in the haste of using it and most important you got the cash to pay for a new copy. Well, that's fine. The universe is so much diversified and what I do is not necessarily what my other friend might consider doing.
+Welcome back! From the suggestions I got, I figured I should share with you this tutorial on how to get our Microsoft Office 365 ready. If you have been using any Microsoft Office product for a while you probably have faced problems with your copy getting outdated. Sometimes these problems get us in fine moments when you're not actually in constant use sometimes not. Well, that's fine. The universe is so much diversified and what I do is not necessarily what you might consider doing.
 
 This is why I came up with several ways you can go about when you need to access any Microsoft Office service. There are three ways about it;
 
@@ -54,12 +54,18 @@ Go to [getintopc](https://www.techgenius.me/2018-07-10-how-to-install-windows-10
 
 I'll use 'Office 365 small Business Premium' from getintopc with the following features;
 
-1. _Software Full Name: Office 365 Small Business Premium_
-2. _Setup File Name: Office_365_Small_Business_Premium.zip_
-3. _Full Setup Size: 999 MB_
-4. _Setup Type: Offline Installer / Full Standalone Setup_
-5. _Compatibility Architecture: 32 Bit (x86) / 64 Bit (x64)_
-6. _Latest Version Release Added On: 5th Dec 2014_
+1. _Software Full Name: Office 365 Small Business Premium
+   _
+2. _Setup File Name: Office_365_Small_Business_Premium.zip
+   _
+3. _Full Setup Size: 999 MB
+   _
+4. _Setup Type: Offline Installer / Full Standalone Setup
+   _
+5. _Compatibility Architecture: 32 Bit (x86) / 64 Bit (x64)
+   _
+6. _Latest Version Release Added On: 5th Dec 2014
+   _
 
 Most of these downloads have a video tutorial though.
 
