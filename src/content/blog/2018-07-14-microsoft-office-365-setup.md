@@ -70,3 +70,5 @@ I'll use 'Office 365 small Business Premium' from getintopc with the following f
 Most of these downloads have a video tutorial though.
 
 When your download is complete extract the file in one folder > Click 'read me' and note the setup file you should run first > when the setup is complete install the patch file > run patch > you are set to go.
+
+That's how you go about your Microsoft Office. Please leave a comment for any suggestion or email me for inquiry and personal assistance.
