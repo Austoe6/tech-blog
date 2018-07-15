@@ -24,6 +24,7 @@ import {
     WhatsappShareButton
 } from 'react-share'
 import SignUpForm from '../components/SignUpForm';
+import AdUnit from '../components/Ad';
 
 class BlogPost extends React.Component{
     handleNewComment(comment) {
@@ -147,10 +148,16 @@ class BlogPost extends React.Component{
                         <div className="blog-post__right-panel">
                             <Title title='Join our mail list'/>
                             <SignUpForm />
+                            <div>
+                                <AdUnit/>
+                            </div>
                     
                         </div>
                     </Col>
                 </Row>
+                <div>
+                    <AdUnit/>
+                </div>
                 <Whitespace height={60}/>
                 <Divider />
                 <div>
