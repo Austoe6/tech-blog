@@ -13,6 +13,8 @@ const adHtml = `
 <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
 `
 
-export default AdUnit = () =>(
+const AdUnit = () =>(
     <div dangerouslySetInnerHTML={{__html: adHtml}} />
 )
+
+export default AdUnit
