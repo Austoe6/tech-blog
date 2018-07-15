@@ -155,9 +155,7 @@ class BlogPost extends React.Component{
                         </div>
                     </Col>
                 </Row>
-                <div>
-                    <AdUnit/>
-                </div>
+               
                 <Whitespace height={60}/>
                 <Divider />
                 <div>
@@ -173,6 +171,9 @@ class BlogPost extends React.Component{
                             <FeaturedPosts posts={recentPosts.slice(0, 3)}/>
                         </div>
                     }
+                </div>
+                <div>
+                    <AdUnit/>
                 </div>
                 <Divider />
                 <Whitespace height={40}/>
