@@ -15,4 +15,4 @@ Ever since WhatsApp withdrew it's services to BlackBerry phones BlackBerry owner
 
 Click on the link below to download;
 
-[Download GBWhatsApp it works for BlackBerry](https://latestmodsapk.com/gbwhatsapp-apk-download-latest-version/).
+[Download GBWhatsApp it works for BlackBerry.](https://latestmodapks.com/gbwhatsapp-download-latest-version-android/?ref=app)
