@@ -24,7 +24,7 @@ import {
     WhatsappShareButton
 } from 'react-share'
 import SignUpForm from '../components/SignUpForm';
-import AdUnit from '../components/Ad';
+import {AdUnit, InfoLinksAdUnit} from '../components/Ad';
 
 class BlogPost extends React.Component{
     handleNewComment(comment) {
@@ -186,6 +186,7 @@ class BlogPost extends React.Component{
                     onNewComment={this.handleNewComment}/>
                 </div>
                 <Whitespace/>
+                <InfoLinksAdUnit/>
             </div>
         )
     }

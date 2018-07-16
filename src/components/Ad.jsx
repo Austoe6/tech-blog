@@ -13,8 +13,23 @@ const adHtml = `
 <script type="text/javascript" src="//cdn.chitika.net/getads.js" async></script>
 `
 
+const infoLinksAd =`
+<script type="text/javascript">
+    var infolinks_pid = 3113047;
+    var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="//resources.infolinks.com/js/infolinks_main.js"></script>
+`
+
 const AdUnit = () =>(
     <div dangerouslySetInnerHTML={{__html: adHtml}} />
 )
 
-export default AdUnit
+const InfoLinksAdUnit = () =>(
+    <div dangerouslySetInnerHTML={{__html: infoLinksAd}} />
+)
+
+export default {
+    AdUnit,
+    InfoLinksAdUnit
+}
