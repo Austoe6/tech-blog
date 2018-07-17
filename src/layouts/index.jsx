@@ -23,7 +23,10 @@ const Layout = ({ children, data, location }) => (
     <div className="container">
       <Whitespace height={60}/>
       <Divider />
-      <p>&copy; Copyright 2018</p>
+      <div className='footer__container'>
+        <p>&copy; Copyright 2018</p>
+        <p>Made by <a href='https://awedevs.me' target='_blank'>Awedevs</a></p>
+      </div>
       <Whitespace height={20}/>
     </div>
   </div>

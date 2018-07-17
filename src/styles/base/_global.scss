@@ -27,3 +27,13 @@ img {
         padding: 0;
     }
 }
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.min-height--vh {
+    min-height: 80vh;
+}
