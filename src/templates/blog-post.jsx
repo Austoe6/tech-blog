@@ -59,8 +59,8 @@ class BlogPost extends React.Component{
                 <Helmet
                     title={postMeta.title}
                     meta={[
-                        { name: 'description', content: postMeta.description || 'TechGenius blog, we geek about technology, software, cars' },
-                        { name: 'keywords', content: 'Technology, smartphones, cars, tech reviews' },
+                        { name: 'description', content: postMeta.description || 'TechGenius blog, we geek about technology, software, PC and Tech reviews' },
+                        { name: 'keywords', content: 'Technology, smartphones, software, PC, tech reviews' },
                       ]}
                 />
                 <Whitespace height={160}/>
