@@ -16,11 +16,9 @@ featured: true
 
 AVI stands for Audio Video Interleave. From the name we now are sure it entails both video and audio data. These data are stored in a container which allow audio-video playback synchronization. AVI files were first introduced by Microsoft way back in 1992. They are therefore supported in all Microsoft products. They have file extensions .avi developed by Matrox OpenDML group since February 1996.
 
-AVI is part of Resource Exchange File Format (RIFF) which organizes data in grouped forms ‘blocks’. These blocks identify themselves in FourCC tag which are differentiated from each other file. The data encoded in these blocks, though, can be encoded or decoded using a software known as codec. This basically explains why you may have an AVI file supported by your player when the next isn’t supported at all.
+AVI is part of Resource Exchange File Format (RIFF) which organizes data in grouped forms ‘blocks’. These blocks identify themselves in FourCC tag which are differentiated from each other file. The data encoded in these blocks, though, can be encoded or decoded using a software known as codec. This basically explains why you may have an AVI file supported by your player when the next isn’t supported at all. See [AVI Microsoft docs](https://docs.microsoft.com/en-us/windows/desktop/directshow/avi-file-format) too.
 
 ![avi.img](/img/avi.png)
-
-
 
 ## AVI usage
 
@@ -41,8 +39,6 @@ Offline players like Windows media player and VLC player can play all AVI files 
 •	A bank of codecs are currently available i.e DivX and XviD hence increasing its compression score against other video formats.
 
 •	It can easily be made compatible with the DV standards. This is achieved through compressing DV-AVI.
-
-
 
 ## Limitations/cons of AVI
 
@@ -68,7 +64,7 @@ AVI against the other Video formats;
 
 ![mov.img](/img/mov.png)
 
-## AVI vs MPEG 
+## AVI vs MPEG
 
 If you intend to have a wonderful PC/ Mac experience AVI is definitely your way. It possess high quality; you can have uncompressed video files for editing and offers a long term solution to your storage concerns. If you are video editor, photographer or film producer AVI is your way.
 
@@ -80,11 +76,9 @@ With MOVs, they are more of alike when it comes to pros, cons and uses. They are
 
 However, they are durable and would probably suit you if you intend to store your files for future years to come. You can store these files using external storage devices in the market. They shouldn’t cost you much.
 
-
-
 ## How open AVI file; AVI Video Players
 
-Whenever you run into trouble opening AVI files format, mostly because you lack required codecs, you should install the required codecs. Click to see how to install required codes. 
+Whenever you run into trouble opening AVI files format, mostly because you lack required codecs, you should install the required codecs. Click to see[ how to install required codes. ](https://www.cnet.com/how-to/how-to-download-codec-files-required-for-playing-media-in-windows-7/)
 
 However, to avoid such kind of problems just have the right player with a guarantee of nearly 90%.
 
@@ -98,6 +92,8 @@ In the case where you lack either of those, or they all fail due to one reason o
 
 So, how do we convert AVI video file format?
 
+[SEE ALSO: DOWNLOAD INSTAGRAM PHOTOS!](http://bit.ly/2uBX3ei)
+
 ## AVI Converter: AVI to MP4?
 
 When converting video formats especially AVI you can use free tools or paid software to do so. Free tools we have may include;’ Any video converter’ Converts AVi to MP4, FLV and other more video formats. There is Movavi though it is a paid version with free trial period.
@@ -110,7 +106,7 @@ To convert AVI to MP4 I'll talk about three free video converters;
 
 This will convert any video hosted online. You will first have to upload your video online then convert it to your preferred format. You will then need to download it or save it for offline use. It works best with YouTube, Vimeo, Facebook and other online platform. You can also integrate it to your favorite movie website. 
 
-SEE ALSO: NETFLIX FOR FREE!!
+[SEE ALSO: NETFLIX FOR FREE!!](http://bit.ly/2KZjCov)
 
 It has numerous editing options; trimming your video, background editing, size formatting, rotation, sound tracks and much more video effects.
 
@@ -126,7 +122,8 @@ MORE: You can also convert AVI files using online video converters like; ‘Onli
 
 (c). VLC
 
-_With all that, my personal pick is VLC. You can convert a video format using VLC as below._
+_With all that, my personal pick is VLC. You can convert a video format using VLC as below.
+_
 
 •	Open your VLC
 
@@ -139,6 +136,8 @@ _With all that, my personal pick is VLC. You can convert a video format using VL
 ![VLC converter](/img/screenshot-107-.png)
 
 This is how you convert your AVI format to other formats.
+
+Download [here](https://en.softonic.com/downloads/pc-video-converter).
 
 Most common question is how to convert AVI to MP4? I guess we now know.
 
