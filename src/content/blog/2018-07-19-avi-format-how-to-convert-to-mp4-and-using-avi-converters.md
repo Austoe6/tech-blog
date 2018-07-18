@@ -62,7 +62,7 @@ AVI against the other Video formats;
 
 **MOV**; it was introduced in 1998 by Apple. It is basically an MPEG 4 video format in Apple’s QuickTime program.
 
-![mov.img](/img/mov.png)
+![mov.img](/img/mov-icon.png)
 
 ## AVI vs MPEG
 
