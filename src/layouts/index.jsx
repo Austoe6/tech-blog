@@ -10,10 +10,10 @@ import Divider from '../layout-components/divider';
 const Layout = ({ children, data, location }) => (
   <div>
     <Helmet
-      title={`${data.site.siteMetadata.title} | TechGenius we geek about technology, software problems fixes, cars, smartphones specs and prices in Kenya. Get smarter with TechGenius Kenya! No. 1 Kenyas Tech blog`}
+      title={`${data.site.siteMetadata.title} | TechGenius we geek about technology, software problems fixes, reviews and analysis. `}
       meta={[
         { name: 'description', content: 'TechGenius we geek about technology, software problems fixes, softwares, smartphones specs and analysis. Learn more about tech with us.' },
-        { name: 'keywords', content: 'Technology, smartphones in kenya, cars kenya, tech reviews Kenya' },
+        { name: 'keywords', content: 'Technology, smartphones reviews, software analysis and reviews, tech talks and updates.' },
       ]}
     />
     <Header siteTitle={data.site.siteMetadata.title} location={location} />
