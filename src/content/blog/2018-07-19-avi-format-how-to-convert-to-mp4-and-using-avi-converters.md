@@ -74,7 +74,7 @@ On the other hand, MPEG video files are more common in the internet. Basically, 
 
 With MOVs, they are more of alike when it comes to pros, cons and uses. They are the most compatible PC or Mac video format we all need. However, when uncompressed they are pretty too big and would go up to ~26GB per 120 sec of footage! This renders them irrelevant for video playback.
 
-However, they are durable and would probably suit you if you intend to store your files for future years to come. You can store these files using external storage devices in the market. They shouldn’t cost you much.
+Also, they are durable and would probably suit you if you intend to store your files for future years to come. You can store these files using external storage devices in the market. They shouldn’t cost you much.
 
 ## How open AVI file; AVI Video Players
 
@@ -100,7 +100,7 @@ When converting video formats especially AVI you can use free tools or paid soft
 
 To convert AVI to MP4 I'll talk about three free video converters;
 
-(a).  Any Video Converter Free
+## (a).  Any Video Converter Free
 
 ![any video converter](/img/3_any_2.jpg)
 
@@ -110,7 +110,7 @@ This will convert any video hosted online. You will first have to upload your vi
 
 It has numerous editing options; trimming your video, background editing, size formatting, rotation, sound tracks and much more video effects.
 
-(b). Free make video converter
+## (b). Free make video converter
 
 ![freemake video converte](/img/freemake-1.jpg)
 
@@ -120,7 +120,7 @@ Best for YouTube videos
 
 MORE: You can also convert AVI files using online video converters like; ‘Onlinecoverter.com’,’zamrar’,’filezigzag’ or ‘onlinevideoconverter’. Here you first need to upload your AVI file format and convert it.
 
-(c). VLC
+## (c). VLC
 
 _With all that, my personal pick is VLC. You can convert a video format using VLC as below.
 _
@@ -138,6 +138,38 @@ _
 This is how you convert your AVI format to other formats.
 
 Download [here](https://en.softonic.com/downloads/pc-video-converter).
+
+## (d) WonderShare Video Converter
+
+![wondershare editor](/img/2496__wondersharevideoeditor-2.png)
+
+WonderShare Video Converter is also one of the good File converters we have currently. It converts over 1000 formats from many devices. WonderShare goes to the high end, 4K and VR included. This is impressive for this market. It literally outperform most of the competition available.
+
+WonderShare Video Converter Ultimate helps you convert files from a wide range of platforms including Mac, Windows, android and other Apple devices available.
+
+It has a wonderful mechanism. GPU acceleration support that increases conversion speed. You can use their lossless conversion that is ranked the best so far. It’s actually fast than any other conversion technology available currently.
+
+It also possess a wide range of video editing features for customization, trimming, watermarks, logos, soundtracks and so on.
+
+## (e). ZamZar
+
+![Zamzar](/img/zamzar.jpg)
+
+ZamZar is basically what we want. It’s specified for AVI to MP4 files.
+
+This is how to use ZamZar;
+
+•	Go to www.zamzar.com/convert/avi-to-mp4/
+
+•	The steps are outline in the site too but I’ll just walk through…
+
+•	Select your file and upload it
+
+•	Choose format to convert to and convert your file.
+
+With ZamZar you can convert AVI to: 3GP, 3G2, ACC, AC3, FLAC, FLV, GIF, MPEG4, MP3, MOV, MP4, MPG, OGG,  WAV, WEBM, WMV.
+
+
 
 Most common question is how to convert AVI to MP4? I guess we now know.
 
