@@ -15,7 +15,10 @@ What is the best video format for my download? Why all these options anyway? Wha
 
 The most important thing you need to get to your head is that these video formats are not only extensions. I have discussed about AVI earlier and it’s clear they consist of codecs, [AVI formats](http://bit.ly/2O1ui3v) are in fact containers. So, to understand this question so well we need to understand these two terms.
 
-[SEE ALSO: AVI FILE? HOW TO CONVERT TO MP4.](http://bit.ly/2O1ui3v)
+[SEE ALSO: AVI FILE? HOW TO CONVERT TO MP4.](http://bit.ly/2O1ui3v)
+
+For comparison between these video format; AVI against MKV, MP4, MPEG and WEBL see above link.
+
 
 ## Codec
 
@@ -32,8 +35,6 @@ Codecs available presently include;
 •	FFmpeg- this include two formats MPEG2 for DVDs and MPEG4 mostly used by Apple’s iTune movies.
 
 •	MPEG4 AVC mostly used in HD videos. (720p/1080p/2K/4K).
-
-
 
 So now let’s look at containers.
 
@@ -84,6 +85,10 @@ It’s a good format for streaming. They are of low size with good quality pictu
 ## (g). WMV
 
 There is no any big difference between WMV and RealVideo. It is also ideal for web transmission. It is supported by Microsoft and can be viewed with Windows Media Player.
+
+## (h). FLV
+
+FLV stands for Flash Video. It uses adobe player to transmit video/audio over the internet. It has been used for long as a standard internet streaming file in YouTube, Vimeo and other services but today it’s not so common with HTML5 superiority over it. This owes to its declining performance these days. Most browsers today are eliminating Flash video extensions from their services. In due time, they will be eliminated completely. We are talking a span of about 2 years-time only.
 
 Having looked at them independently we can now make our judgement.
 
