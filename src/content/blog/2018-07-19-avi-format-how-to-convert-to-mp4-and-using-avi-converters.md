@@ -1,6 +1,6 @@
 ---
 templateKey: blog
-title: 'AVI Format: How to convert AVI video to MP4 with AVI video converters'
+title: AVI file? How to convert AVI  to MP4
 date: '2018-07-19T00:18:04+03:00'
 thumbnail: /img/film-1668918_1280.jpg
 description: >-
