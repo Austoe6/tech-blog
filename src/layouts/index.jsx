@@ -12,7 +12,7 @@ const Layout = ({ children, data, location }) => (
     <Helmet
       title={`${data.site.siteMetadata.title} | TechGenius we geek about technology, software problems fixes, cars, smartphones specs and prices in Kenya. Get smarter with TechGenius Kenya! No. 1 Kenyas Tech blog`}
       meta={[
-        { name: 'description', content: 'TechGenius we geek about technology, software problems fixes, cars, smartphones specs and prices in Kenya. Get smarter with TechGenius Kenya! No. 1 Kenyas Tech blog' },
+        { name: 'description', content: 'TechGenius we geek about technology, software problems fixes, softwares, smartphones specs and analysis. Learn more about tech with us.' },
         { name: 'keywords', content: 'Technology, smartphones in kenya, cars kenya, tech reviews Kenya' },
       ]}
     />
