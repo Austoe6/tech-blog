@@ -19,7 +19,6 @@ The most important thing you need to get to your head is that these video format
 
 For comparison between these video format; AVI against MKV, MP4, MPEG and WEBL see above link.
 
-
 ## Codec
 
 What is a codec?  At one point we either have bought a movie or downloaded one and any other large video file we use. These files would have been much larger if not for codecs. A normal Blu-Ray disc usually takes up to around 35GB to 50GB which is way too large for external storage and would take time to download given a standard internet speed. So, we have to compress them for easy manageability and portability. 
@@ -48,11 +47,11 @@ Containers include AVI, Matroska (MKV), MOV files (Apple’s QuickTime) and MP4.
 
 So, how do we select the best video format?
 
-To arrive at this decision we have to look at each of them separately.
+To find the best video format we have to look at each of them separately.
 
 ## (a). QuickTime
 
-QuickTime is Apple’s based multimedia format written in C and objective-C. It has good quality video output and efficient for long term storage. 
+QuickTime is Apple’s based multimedia format written in C and objective-C. It has good quality video output and efficient for long term storage. For Apple products it's probably the best video format for long term storage.
 
 QuickTime has larger files which may not be the best for the web. It also doesn’t support interactive editing.
 
@@ -62,11 +61,11 @@ It receives appraisals mainly for its diversification, it has high quality perfo
 
 It has a high quality video output. It has high compression score too. However, if not compressed these files are too large for usage (about 20-27GB per 60 minutes). 
 
-DV-AVI can also record back to DV tape. They require a high processing power to run on your PC. Definitely not the best for just personal streaming.
+DV-AVI can also record back to DV tape. They require a high processing power to run on your PC. Definitely not the best video file for just personal streaming.
 
 ## (c).MPEG 2
 
-They have good quality video and would be used best to burn DVD disc.  They have a relative large size about 4.7GB for almost 2 hours.  They produce high quality DVD disk.
+They have good quality video and would be used best to burn DVD disc.  They have a relative large size about 4.7GB for almost 2 hours.  They produce high quality DVD disk. This is the best video format for DVD.
 
 ## (d). DivX
 
@@ -76,7 +75,7 @@ They however cannot produce DVD or CDs.
 
 ## (e). MPEG-1
 
-It produces standard video quality for video CDs. It’s probably the best for making CDs but it’s quality is lower than MPEG-2.
+It produces standard video quality for video CDs. It’s probably the best video format for making CDs but it’s quality is lower than MPEG-2.
 
 ## (f). Real Video
 
