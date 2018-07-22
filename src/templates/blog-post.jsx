@@ -59,8 +59,8 @@ class BlogPost extends React.Component{
                 <Helmet
                     title={postMeta.title}
                     meta={[
-                        { name: 'description', content: postMeta.description || 'TechGenius blog, we geek about technology, software, PC and Tech reviews' },
-                        { name: 'keywords', content: 'Technology, smartphones, software, PC, tech reviews' },
+                        { name: 'description', content: postMeta.description || 'This is a detailed description on what is AVI format? How to convert AVI to MP4 and best video format' },
+                        { name: 'keywords', content: 'AVI format, best video format, AVI to MP4, best Video converter' },
                       ]}
                 />
                 <Whitespace height={160}/>
