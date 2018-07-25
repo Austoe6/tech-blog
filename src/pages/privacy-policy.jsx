@@ -5,7 +5,10 @@ const MediaPage = (transition) =>{
     return(
         <div style={transition && transition.style} className="container min-height--vh">
             <Whitespace height={160}/>
-            <div>
+            <div className='blog-post__body' style={{
+                maxWidth: 960,
+                margin: 'auto',
+            }}>
                 <h1>Privacy Policy</h1>
 
 
