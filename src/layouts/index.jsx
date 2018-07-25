@@ -32,6 +32,7 @@ const Layout = ({ children, data, location }) => (
           <a href="/privacy-policy">Our privacy policy</a>
         </div>
       </div>
+      <Whitespace height={20}/>
       <div className='footer__container'>
         <p>&copy; Copyright 2018</p>
         <p>Made by <a href='https://www.awedevs.me' target='_blank' rel='noopener'>Awedevs</a></p>
