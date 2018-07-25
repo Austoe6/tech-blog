@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import SocialIcons from '../components/social-icons'
 
 import Header from '../components/header'
 import '../styles/styles.scss'
@@ -23,6 +24,14 @@ const Layout = ({ children, data, location }) => (
     <div className="container">
       <Whitespace height={60}/>
       <Divider />
+      <div className="footer__container">
+        <div>
+          <SocialIcons/>
+        </div>
+        <div>
+          <a href="/privacy-policy">Our privacy policy</a>
+        </div>
+      </div>
       <div className='footer__container'>
         <p>&copy; Copyright 2018</p>
         <p>Made by <a href='https://www.awedevs.me' target='_blank' rel='noopener'>Awedevs</a></p>
