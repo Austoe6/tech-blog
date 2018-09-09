@@ -12,4 +12,4 @@ email: austoe6@gmail.com
 phone: '+254715599260'
 image: /img/profile.jpg
 ---
-_Hi! I'm Austin Okhala. I'm a hardworking person driven by passion to the world of tech. I enjoy helping people maintain, update and get just the right replacement for their electronics and motor engines. I have experience with both the 'bad stuff' (defaulting gadgets) and the amazing stuff. Trust me, both have their unique component, and that's what I offer. I'm a university student at JKUAT currently taking a Bachelor Degree in Actuarial Science. It's my great honor to have you._
+_Hi! I'm Austin Okhala. I'm a hardworking person driven by passion to the world of tech. I enjoy helping people maintain, update and get just the right replacement for their electronics and motor engines. I have done enough research in software analysis and I'm honored to share some of my expertise to you. It's my great honor to have you._
