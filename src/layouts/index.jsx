@@ -25,7 +25,7 @@ const Layout = ({ children, data, location }) => (
       <Divider />
       <div className='footer__container'>
         <p>&copy; Copyright 2018</p>
-        <p>Made by <a href='https://awedevs.me' target='_blank'>Awedevs</a></p>
+        <p>Made by <a href='https://www.go-studio.co' target='_blank'>GO Studio</a></p>
       </div>
       <Whitespace height={20}/>
     </div>
