@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col } from '../layout-components/grid';
 import arrowRight from '../assets/arrow-right.svg'
-import Link from 'gatsby-link'
+import {Link} from 'gatsby'
 import { kebabCase } from 'lodash'
 
 class Categories extends React.Component{

@@ -1,4 +1,6 @@
 import React from 'react'
+import { graphql } from "gatsby"
+
 import Whitespace from '../layout-components/whitespace';
 import Title from '../components/Title';
 import TopPosts from '../components/TopPosts';

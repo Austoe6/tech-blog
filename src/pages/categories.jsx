@@ -1,19 +1,23 @@
 import React from 'react'
 import Whitespace from '../layout-components/whitespace'
 import Categories from '../components/Categories'
-import Title from '../components/Title';
+import Title from '../components/Title'
+import Layout from '../layout-components/layouts'
+import { graphql } from "gatsby"
 
-const CategoriesPage = ({data, transition}) =>{
+const CategoriesPage = ({data, transition, location}) =>{
     return(
-        <div className="container" style={transition && transition.style}>
-          <Whitespace height={160}/>
-          <Title title='All categories'/>
-          <Whitespace height={20}/>
-          <div>
-            <Categories data={data.categories.group}/>
+        <Layout location={location}>
+          <div className="container" style={transition && transition.style}>
+            <Whitespace height={160}/>
+            <Title title='All categories'/>
+            <Whitespace height={20}/>
+            <div>
+              <Categories data={data.categories.group}/>
+            </div>
+            <Whitespace/>
           </div>
-          <Whitespace/>
-        </div>
+        </Layout>
     )
 }
 

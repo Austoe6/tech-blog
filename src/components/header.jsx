@@ -1,5 +1,5 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import {Link} from 'gatsby'
 import logo from '../assets/rick.svg'
 import {Row, Col} from '../layout-components/grid'
 import Divider from '../layout-components/divider'
@@ -57,9 +57,9 @@ class Header extends React.Component{
             <Col>
               <div className="hide-mobile"><Nav/></div>
               <div className="mobile-nav__btn">
-              <a>
+              <span>
                 <img src={menuBtnSrc} alt="menu btn" role='button' onClick={this.handleShowMenu}/>
-              </a>
+              </span>
               </div>
             </Col>
           </Row>

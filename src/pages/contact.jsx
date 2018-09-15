@@ -1,33 +1,37 @@
 import React from 'react'
 import Whitespace from '../layout-components/whitespace'
 import SocialIcons from '../components/social-icons'
-import Title from '../components/Title';
+import Title from '../components/Title'
+import Layout from '../layout-components/layouts'
+import { graphql } from "gatsby"
 
-const ContactPage = ({data, transition}) =>{
+const ContactPage = ({data, transition, location}) =>{
     const aboutData = data.about.edges[0].node
     return(
-        <div style={transition && transition.style}>
-            <Whitespace/>
-            <div style={{backgroundImage: `url(${aboutData.frontmatter.image})`}}>
-                <div className="about-page__header">
-                    <div className="container">
-                        <Whitespace height={160}/>
-                        <h1>Get in touch</h1>
+        <Layout location={location}>
+            <div style={transition && transition.style}>
+                <Whitespace/>
+                <div style={{backgroundImage: `url(${aboutData.frontmatter.image})`}}>
+                    <div className="about-page__header">
+                        <div className="container">
+                            <Whitespace height={160}/>
+                            <h1>Get in touch</h1>
+                        </div>
                     </div>
                 </div>
+                <div className="container contact-page__contacts-container">
+                    <Title title='Contacts'/>
+                    <Whitespace height={10}/>
+                    <p>Phone: {aboutData.frontmatter.phone}</p>
+                    <p>Email: {aboutData.frontmatter.email} <a href={`mailto:${aboutData.frontmatter.email}`}>Email me</a></p>
+                    <Whitespace height={20}/>
+                    <Title title='Social'/>
+                    <Whitespace height={10}/>
+                    <SocialIcons/>
+                </div>
+                <Whitespace/>
             </div>
-            <div className="container contact-page__contacts-container">
-                <Title title='Contacts'/>
-                <Whitespace height={10}/>
-                <p>Phone: {aboutData.frontmatter.phone}</p>
-                <p>Email: {aboutData.frontmatter.email} <a href={`mailto:${aboutData.frontmatter.email}`}>Email me</a></p>
-                <Whitespace height={20}/>
-                <Title title='Social'/>
-                <Whitespace height={10}/>
-                <SocialIcons/>
-            </div>
-            <Whitespace/>
-        </div>
+        </Layout>
     )
 }
 

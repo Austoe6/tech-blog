@@ -66,14 +66,14 @@
     }
 }
 
+.blog-post__share-btn-container {
+    color: $black;
+    display: block;
+}
+
 .blog-post__share-buttons {
     margin: auto;
     text-align: center;
-	
-	a {
-        color: $black;
-		display: block;
-    }
 
     @include bp(max-width medium){
         display: flex;

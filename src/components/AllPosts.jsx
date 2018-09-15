@@ -1,6 +1,6 @@
 import React from 'react'
 import {Row, Col} from '../layout-components/grid'
-import Link from 'gatsby-link'
+import {Link} from 'gatsby'
 import { kebabCase } from 'lodash'
 
 const AllPosts = ({data}) =>{
