@@ -2,13 +2,10 @@ import React from 'react'
 import FeaturedPosts from '../components/FeaturedPosts';
 import About from '../components/About';
 import TopPosts from '../components/TopPosts';
-import { Row, Col } from '../layout-components/grid';
 import AllPosts from '../components/AllPosts';
 import Title from '../components/Title';
 import Whitespace from '../layout-components/whitespace'
-import SocialIcons from '../components/social-icons'
 import {Helmet} from 'react-helmet'
-import SignUpForm from '../components/SignUpForm'
 import Layout from '../layout-components/layouts'
 import { graphql } from "gatsby"
 
@@ -44,24 +41,9 @@ const IndexPage = ({data, transition, location}) =>{
         </div>
         <About data={aboutData} />
         <div className="container">
-          <Row>
-            <Col lg={16} xs={24}>
-              <Whitespace height ={16}/>
-              <Title title='All Posts'/>
-              <AllPosts data={allPosts}/>
-            </Col>
-            <Col lg={8} xs={24}>
-              <Whitespace height ={16}/>
-              <div className="side-panel">
-                <Title title='Join our Maillist'/>
-                <SignUpForm/>
-                <Whitespace height={20}/>
-                <Title title='Social'/>
-                <Whitespace height={10}/>
-                <SocialIcons/>
-              </div>
-            </Col>
-          </Row>
+          <Whitespace height ={16}/>
+          <Title title='All Posts'/>
+          <AllPosts data={allPosts}/>
         </div>
         <Whitespace/>
       </div>

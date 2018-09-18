@@ -29,9 +29,27 @@ img {
 }
 
 .footer__container {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.footer__section {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 1.2rem;
+
+    a {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+.footer__copyright-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .min-height--vh {

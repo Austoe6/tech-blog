@@ -1,9 +1,26 @@
+.all-posts__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include bp(large){
+        justify-content: space-between;
+    }
+}
+
+.post-item__wrapper {
+    width: 100%;
+
+    @include bp(large){
+        width: 33%;
+    }
+}
+
 .post-item__container {
     padding-top: 4rem;
     color: $black;
     
     @include bp(large){
-        max-width: 90%;
+        max-width: 96%;
     }
 }
 
@@ -84,7 +101,7 @@
 }
 
 .side-panel {
-    padding-left: 2rem;
+    display: flex;
 
     @include bp(max-width medium){
         padding-left: 0;

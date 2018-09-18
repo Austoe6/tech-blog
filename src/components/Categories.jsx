@@ -1,39 +1,44 @@
 import React from 'react'
 import { Row, Col } from '../layout-components/grid';
-import arrowRight from '../assets/arrow-right.svg'
 import {Link} from 'gatsby'
-import { kebabCase } from 'lodash'
+import {kebabCase} from 'lodash'
 
 class Categories extends React.Component{
     render(){
         const {data} = this.props
         return(
-            <Row gutter={32} className="category__container">
+            <section className="category__container">
                 {
                     data.map((category)=>
-                    <Col lg={12} xs={24} key={category.fieldValue}>
+                    <div key={category.fieldValue}>
                         <Row className='category-item__container'>
-                            <Col span={24}>
-                                <Row className="category-item__heading">
-                                    <Col span={18} className='category-item__title'>
-                                        <h3>{category.fieldValue}</h3>
-                                    </Col>
-                                    <Col span={6}>
-                                        <Link to={`/categories/${kebabCase(category.fieldValue)}`}>
-                                            <div className="category-item__link">
-                                                <img src={arrowRight} alt="arrow-right"/>
-                                                <span>All</span>
-                                            </div>
-                                        </Link>
-                                    </Col>
-                                </Row>
+                            <Col lg={12} md={24} className='category-item__image' style={{backgroundImage: `url(${category.edges[0].node.frontmatter.thumbnail})`, marginBottom: 20, backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
+                               <Link to={`categories/${kebabCase(category.fieldValue)}`}>
+                                    <span className='category-item__title'># {category.fieldValue}</span>
+                               </Link>
                             </Col>
-                            <Col span={24}></Col>
+                            <Col lg={12} md={24}>
+                                <div className="category-item__latest-container">
+                                    <span>Latest in {category.fieldValue}</span>
+                                    <div className="category-item__latest-item">
+                                        {
+                                            category.edges.map(post => 
+                                                <div>
+                                                    <Link to={post.node.fields.slug}>
+                                                        <h2>{post.node.frontmatter.title}</h2>
+                                                    </Link>
+                                                </div>
+                                            )
+                                        }
+                                    </div>
+                                    <Link to={`categories/${kebabCase(category.fieldValue)}`}>+ More</Link>
+                                </div>
+                            </Col>
                         </Row>
-                    </Col>
+                    </div>
                 )
                 }
-            </Row>
+            </section>
         )
     }
 }

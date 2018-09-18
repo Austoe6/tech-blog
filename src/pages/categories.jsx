@@ -28,13 +28,17 @@ export const query = graphql`
     categories: allMarkdownRemark(
       limit: 1000
       filter: {frontmatter: {templateKey: {eq: "blog"}}}
+      sort: { fields: [frontmatter___date], order: DESC }
     ){
-      group(field: frontmatter___category){
+      group(field: frontmatter___category limit: 3){
         fieldValue
         totalCount
         edges{
           node{
             id
+            fields {
+              slug
+            }
             frontmatter{
               title
               author
