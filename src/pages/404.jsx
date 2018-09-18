@@ -2,8 +2,8 @@ import React from 'react'
 import Whitespace from '../layout-components/whitespace'
 import Layout from '../layout-components/layouts'
 
-const NotFoundPage = ({props}) => (
-  <Layout location={props.location}>
+const NotFoundPage = ({location}) => (
+  <Layout location={location}>
     <div style={{minHeight:'80vh'}}>
       <Whitespace height={200}/>
       <div style={{textAlign: 'center'}}>
