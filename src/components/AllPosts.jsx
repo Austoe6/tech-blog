@@ -1,15 +1,14 @@
 import React from 'react'
-import {Row, Col} from '../layout-components/grid'
-import Link from 'gatsby-link'
+import {Link} from 'gatsby'
 import { kebabCase } from 'lodash'
 
 const AllPosts = ({data}) =>{
     return (
-        <div className="all-posts__container border-right">
-            <Row>
+        <div className="all-posts__container">
+            <section className='all-posts__wrapper'>
                 {
                     data.map((post) =>
-                    <Col lg={12} xs={24} key={post.node.id}>
+                    <div className='post-item__wrapper' key={post.node.id}>
                         <div className="post-item__container">
                             <div className="post-item__image" style={{backgroundImage: `url(${post.node.frontmatter.thumbnail})`}}>
                             </div>
@@ -21,10 +20,10 @@ const AllPosts = ({data}) =>{
                             </div>
                             <p className="post-item__excerpt">{post.node.excerpt}</p>
                         </div>
-                    </Col>
+                    </div>
                 )
                 }
-            </Row>
+            </section>
             <Link to='/categories'>
                 <div className="load-more">
                     More Posts

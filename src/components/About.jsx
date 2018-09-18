@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from './button'
 import {Row, Col} from '../layout-components/grid'
 
 const About = ({data}) =>{

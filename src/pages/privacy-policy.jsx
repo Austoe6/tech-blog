@@ -1,8 +1,10 @@
 import React from 'react'
 import Whitespace from '../layout-components/whitespace'
+import Layout from '../layout-components/layouts'
 
-const MediaPage = (transition) =>{
+const MediaPage = ({transition, location}) =>{
     return(
+        <Layout location={location}>
         <div style={transition && transition.style} className="container min-height--vh">
             <Whitespace height={160}/>
             <div className='blog-post__body' style={{
@@ -124,6 +126,7 @@ const MediaPage = (transition) =>{
                 </ul>                                
             </div>
         </div>
+        </Layout>
     )
 }
 

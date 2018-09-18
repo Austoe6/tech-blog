@@ -146,6 +146,48 @@ p code {
   padding: 0 2px;
 }
 
+//code styles
+
+:not(pre)>code {
+    display: inline-block;
+    padding: o .25em;
+    background: #f5f2f0;
+    border-radius: 2px;
+}
+
+code {
+    font-family: $mono;
+    size: 14px;
+}
+
+pre {
+    background-color: #f6f6f6;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    font-weight: 300;
+
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 6px
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
+}
+
 // Blockquotes
 // -----------
 

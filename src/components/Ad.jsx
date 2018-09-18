@@ -29,7 +29,7 @@ const InfoLinksAdUnit = () =>(
     <div dangerouslySetInnerHTML={{__html: infoLinksAd}} />
 )
 
-export default {
+export {
     AdUnit,
     InfoLinksAdUnit
 }

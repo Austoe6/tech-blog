@@ -1,24 +1,25 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import {Link} from 'gatsby'
 import {Row, Col} from '../layout-components/grid'
 
 const FeaturedPosts = ({posts}) =>{
     return(
         <Row className='featured-posts'>
             {
-                posts.map((post)=>
-                <Col lg={8} md={24} key={post.node.id}>
-                    <Link to={post.node.fields.slug}>
-                        <div className="featured-post__container">
-                            <div className='featured-post__img'  style={{backgroundImage: `url(${post.node.frontmatter.thumbnail})`}}>
+                posts.map((post)=>(
+                    <Col lg={8} md={24} key={post.node.id}>
+                        <Link to={post.node.fields.slug}>
+                            <div className="featured-post__container">
+                                <div className='featured-post__img'  style={{backgroundImage: `url(${post.node.frontmatter.thumbnail})`}}>
+                                </div>
+                                <div className='featured-post__text'>
+                                    <span>{post.node.frontmatter.category}</span>
+                                    <h4>{post.node.frontmatter.title}</h4>
+                                </div>
                             </div>
-                            <div className='featured-post__text'>
-                                <span>{post.node.frontmatter.category}</span>
-                                <h4>{post.node.frontmatter.title}</h4>
-                            </div>
-                        </div>
-                    </Link>
-                </Col>
+                        </Link>
+                    </Col>
+                )
             )
             }
         </Row>

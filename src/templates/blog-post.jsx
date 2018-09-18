@@ -1,6 +1,6 @@
 import React from 'react'
+import { graphql, Link } from "gatsby"
 import Whitespace from '../layout-components/whitespace'
-import Link from 'gatsby-link'
 import { kebabCase } from 'lodash'
 import Divider from '../layout-components/divider'
 import { Row, Col } from '../layout-components/grid'
@@ -24,7 +24,8 @@ import {
     WhatsappShareButton
 } from 'react-share'
 import SignUpForm from '../components/SignUpForm';
-import {AdUnit, InfoLinksAdUnit} from '../components/Ad';
+import {AdUnit, InfoLinksAdUnit} from '../components/Ad'
+import Layout from '../layout-components/layouts'
 
 class BlogPost extends React.Component{
     handleNewComment(comment) {
@@ -33,28 +34,29 @@ class BlogPost extends React.Component{
     }
 
     render(){
-        const {data, transition} = this.props
+        const {data, transition, location} = this.props
         const post = data.blogPost
-        const postId = this.props.pathContext.id
+        const postId = this.props.pageContext.id
         const postMeta = post.frontmatter
         const shareUrl = typeof window !== 'undefined' ? window.location.href : `http://wwww.techgenius.me/${post.fields.slug}`
         const title = postMeta.title
         //posts from the same category
         let relatedPosts = []
-        data.relatedPosts.edges.map((post) => {
+        data.relatedPosts.edges.forEach((post) =>{
             if(post.node.id !== postId){
                 relatedPosts = relatedPosts.concat(post)
             }
         })
         //recent posts
         let recentPosts = []
-        data.recentPosts.edges.map((post) => {
+        data.recentPosts.edges.forEach((post) =>{
             if(post.node.id !== postId){
                 recentPosts = recentPosts.concat(post)
             }
         })
 
         return(
+            <Layout location={location}>
             <div  style={transition && transition.style} className='blog-post__container'>
                 <Helmet
                     title={postMeta.title}
@@ -81,7 +83,7 @@ class BlogPost extends React.Component{
                             <div className='blog-post__share-title'>
                                 <Title title='share'/>
                             </div>
-                            <a>
+                            <span className='blog-post__share-btn-container'>
                                 <FacebookShareButton
                                     url={shareUrl}
                                     quote={postMeta.title}
@@ -96,8 +98,8 @@ class BlogPost extends React.Component{
                                     className="blog-post__share-count">
                                     {count => count}
                                 </FacebookShareCount>
-                            </a>
-                            <a>
+                            </span>
+                            <span className='blog-post__share-btn-container'>
                             <TwitterShareButton
                                 url={shareUrl}
                                 title={title}
@@ -106,8 +108,8 @@ class BlogPost extends React.Component{
                                 size={48}
                                 round />
                             </TwitterShareButton>
-                            </a>
-                            <a>
+                            </span>
+                            <span className='blog-post__share-btn-container'>
                             <WhatsappShareButton
                                 url={shareUrl}
                                 title={title}
@@ -115,8 +117,8 @@ class BlogPost extends React.Component{
                                 className="blog-post__share-btn">
                                 <WhatsappIcon size={48} round />
                             </WhatsappShareButton>
-                            </a>
-                            <a>
+                            </span>
+                            <span className='blog-post__share-btn-container'>
                             <LinkedinShareButton
                                 url={shareUrl}
                                 title={title}
@@ -132,7 +134,7 @@ class BlogPost extends React.Component{
                                 className="blog-post__share-count">
                                 {count => count}
                             </LinkedinShareCount>
-                            </a>
+                            </span>
                         </div>
                         <div style={{paddingTop: 20}}>
                 
@@ -188,6 +190,7 @@ class BlogPost extends React.Component{
                 <Whitespace/>
                 <InfoLinksAdUnit/>
             </div>
+            </Layout>
         )
     }
 }
