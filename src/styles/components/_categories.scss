@@ -13,19 +13,7 @@
 }
 
 .category-item__container {
-    
-
-    @include bp(large){
-        margin-bottom: 2rem;
-    }
-    
-    @include bp(max-width small){
-        margin-bottom: 1rem;
-    }
-
-    @include bp(small){
-        margin-bottom: 1rem;
-    }
+    margin-bottom: 2rem;
 }
 
 .category-item__latest-container {
