@@ -7,25 +7,26 @@
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "enquire.js": "^2.1.6",
-    "gatsby": "next",
-    "gatsby-plugin-google-analytics": "next",
-    "gatsby-plugin-netlify-cms": "next",
-    "gatsby-plugin-sass": "^2.0.0-beta.5",
-    "gatsby-plugin-react-helmet": "next",
-    "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
+    "gatsby": "^2.5.0",
+    "gatsby-plugin-google-analytics": "latest",
+    "gatsby-plugin-netlify-cms": "^4.0.1",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sass": "^2.0.0",
+    "gatsby-source-filesystem": "^2.0.37",
+    "gatsby-transformer-remark": "^2.3.12",
     "lodash": "^4.17.10",
     "mappy-breakpoints": "^0.2.3",
     "netlify-cms": "^1.9.2",
+    "netlify-cms-app": "^2.9.1",
     "netlify-lambda": "^0.4.0",
     "node-sass": "^4.9.2",
+    "react": "^16.4.1",
     "react-disqus-comments": "^1.2.0",
-    "react-helmet": "^5.2.0",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.1",
     "react-share": "^2.2.0",
     "react-transition-group": "^2.4.0",
-    "request": "^2.87.0",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
+    "request": "^2.87.0"
   },
   "keywords": [
     "gatsby"
@@ -47,6 +48,6 @@
     }
   },
   "devDependencies": {
-    "prettier": "^1.12.0"
+    "prettier": "^1.17.1"
   }
 }
